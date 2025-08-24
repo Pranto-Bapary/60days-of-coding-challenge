@@ -64,6 +64,7 @@ Each project will be available in this repo with live demo links!
 │   │   └── pranto.png
 │   └── day1.html
 └── README.md
+```
 
 
 ---
@@ -79,11 +80,11 @@ Each project will be available in this repo with live demo links!
 I’m a **Frontend Developer in progress** with knowledge of HTML, CSS, JavaScript, Node.js, Express, and MongoDB.
 Currently focusing on **React.js** to level up my skills and kickstart my career in web development.
 
-📫 Connect with me:
+## 📫 Connect with me:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranto-bapary) &nbsp;&nbsp;&nbsp;
-[![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pranto.bapary01@gmail.com) &nbsp;&nbsp;&nbsp;
-[![Instagram](https://img.shields.io/badge/Instagram-purple?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ashfe.pranto)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranto-bapary) &nbsp;&nbsp;&nbsp;
+- [![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pranto.bapary01@gmail.com) &nbsp;&nbsp;&nbsp;
+- [![Instagram](https://img.shields.io/badge/Instagram-purple?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ashfe.pranto)
 
 
 ---

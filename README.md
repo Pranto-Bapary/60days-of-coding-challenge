@@ -1,6 +1,6 @@
-# 🚀 60 Days of Code - Frontend Journey
+# 🚀 60 Days of Coding Challenge - Frontend Journey
 
-Welcome to my **60 Days of Code Challenge**!  
+Welcome to my **60 Days of Coding Challenge**!  
 In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, JavaScript, React) while building projects every step of the way.
 
 ---

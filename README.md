@@ -80,9 +80,11 @@ I’m a **Frontend Developer in progress** with knowledge of HTML, CSS, JavaScri
 Currently focusing on **React.js** to level up my skills and kickstart my career in web development.
 
 📫 Connect with me:
-- [LinkedIn](https://linkedin.com/in/pranto-bapary)
-- [Portfolio](https://pranto-bapary.netlify.app)
-- [Email](mailto:pranto.bapary01@example.com)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranto-bapary) &nbsp;&nbsp;&nbsp;
+[![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pranto.bapary01@gmail.com) &nbsp;&nbsp;&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-purple?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ashfe.pranto)
+
 
 ---
 

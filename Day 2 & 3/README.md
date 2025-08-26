@@ -41,7 +41,7 @@ Day-2-3/
 ---
 
 ## 📸 Preview
-![Signup Form Screenshot](./assets/images/screenshot.jpg)
+![Signup Form Screenshot](./assets/images/screenshot.JPG)
 
 ---
 

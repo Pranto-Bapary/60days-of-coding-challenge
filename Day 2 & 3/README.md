@@ -18,6 +18,7 @@ The goal was to practice:
 
 ## 📂 Folder Structure
 
+```plaintext
 Day-2-3/
 │── assets/
 │ ├── css/
@@ -26,7 +27,7 @@ Day-2-3/
 │── .gitignore
 │── index.html
 └── README.md
-
+```
 
 ---
 

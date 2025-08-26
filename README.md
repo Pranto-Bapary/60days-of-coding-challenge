@@ -21,13 +21,13 @@ In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, Ja
 ## 📊 Progress Tracker
 
 **Current Progress**  
-`█░░░░░░░░░░░░░░` **1/60 Days - 1.6% Completed** 🎉
+`██░░░░░░░░░░░░░` **3/60 Days - 5% Completed** 🎉
 
 | Day | Topic / Task                           | Status     |
 | --- | -------------------------------------- | ---------- |
-| 1   | HTML Basics & Semantic Tags            | ✅ Done    |
-| 2   | Forms & Inputs                         | ⏳ Pending |
-| 3   | CSS Selectors & Box Model              | ⏳ Pending |
+| 1   | HTML Basics & Semantic Tags            | ✅ Done   |
+| 2   | Forms & Inputs                         | ✅ Done   |
+| 3   | CSS Selectors & Box Model              | ✅ Done   |
 | 4   | Flexbox & Grid Layouts                 | ⏳ Pending |
 | 5   | Responsive Design                      | ⏳ Pending |
 | 6   | Mini Landing Page                      | ⏳ Pending |
@@ -38,7 +38,7 @@ In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, Ja
 
 ## 🛠️ Projects I’ll Build
 
-Here are some exciting projects I’ll be building throughout the challenge:
+Here are some exciting projects I’ll be building throughout the challenge using React:
 
 - 📄 **Portfolio Website**
 - ✅ **Responsive Landing Page**
@@ -49,6 +49,7 @@ Here are some exciting projects I’ll be building throughout the challenge:
 - 📰 **Blog App**
 
 Each project will be available in this repo with live demo links!
+Besides I'm doing small projects in each day, those will be available in individual day's repo.
 
 ---
 
@@ -63,7 +64,16 @@ Each project will be available in this repo with live demo links!
 │   │   ├── index.html
 │   │   └── pranto.png
 │   └── day1.html
+├── Day-2-3/
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   └── images/
+│   ├── .gitignore
+│   ├── index.html
+│   └── README.md
 └── README.md
+
 ```
 
 

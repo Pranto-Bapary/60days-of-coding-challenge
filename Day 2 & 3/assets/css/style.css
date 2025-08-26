@@ -1,0 +1,184 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+/* Variables */
+:root {
+  --deepblue: hsl(213, 96%, 18%);
+  --purple: hsl(243, 100%, 62%);
+  --lightblue: hsl(228, 100%, 84%);
+  --skyblue: hsl(206, 94%, 87%);
+  --red: hsl(354, 84%, 57%);
+  --white: hsl(0, 100%, 100%);
+  --grey: hsl(231, 11%, 63%);
+  --purplelite: hsl(229, 24%, 87%);
+}
+
+/* Global Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Body */
+body {
+  height: 100vh;
+  width: 100vw;
+  background: var(--skyblue);
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  max-width: 991px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  background: var(--white);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/* Sidebar */
+.sidebar-wrapper {
+  background: url("../images/bg-sidebar-desktop.svg") no-repeat;
+  height: 600px;
+  width: 275px;
+  border-radius: 15px;
+  padding: 35px 30px;
+  margin-right: 40px;
+}
+
+.step-single {
+  display: flex;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.step-single .circle {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  margin-right: 15px;
+  background: transparent;
+  color: var(--white);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--white);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.step-single .circle:hover {
+  background: var(--skyblue);
+  color: var(--deepblue);
+}
+
+.step-single .circle-active {
+  background: var(--skyblue);
+  color: var(--deepblue);
+  border: none;
+}
+
+.step-no {
+  color: var(--lightblue);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.step-info {
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 4px;
+  letter-spacing: 2px;
+}
+
+/* Form Section */
+.form-section {
+  padding: 30px 50px;
+}
+
+.form-section .form-text {
+  margin-bottom: 40px;
+}
+
+.form-heading {
+  color: var(--deepblue);
+  margin-bottom: 10px;
+}
+
+.form-description {
+  color: var(--grey);
+}
+
+.input-single {
+  width: 430px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+}
+
+label {
+  color: var(--deepblue);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.input-single input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--deepblue);
+  outline: none;
+  border: 1px solid var(--purplelite);
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: 0.1s ease;
+}
+
+.input-single input:focus {
+  border: 1px solid var(--lightblue);
+}
+
+input::placeholder {
+  color: var(gray);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form-btn {
+  width: 430px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 90px;
+}
+
+.form-btn .btn{
+  display: inline-block;
+  height: 50px;
+  padding: 10px 20px;
+  background: var(--deepblue);
+  color: var(--white);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: .1s ease;
+}
+
+.form-btn .btn:hover{
+  background: var(--skyblue);
+  color: var(--deepblue);
+  border: none;
+}

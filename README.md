@@ -21,14 +21,14 @@ In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, Ja
 ## 📊 Progress Tracker
 
 **Current Progress**  
-`██░░░░░░░░░░░░░` **3/60 Days - 5% Completed** 🎉
+`███░░░░░░░░░░░░░` **4/60 Days - 6.6% Completed** 🎉
 
 | Day | Topic / Task                           | Status     |
 | --- | -------------------------------------- | ---------- |
 | 1   | HTML Basics & Semantic Tags            | ✅ Done   |
 | 2   | Forms & Inputs                         | ✅ Done   |
 | 3   | CSS Selectors & Box Model              | ✅ Done   |
-| 4   | Flexbox & Grid Layouts                 | ⏳ Pending |
+| 4   | Flexbox & Grid Layouts                 | ✅ Done   |
 | 5   | Responsive Design                      | ⏳ Pending |
 | 6   | Mini Landing Page                      | ⏳ Pending |
 | ... | ...                                    | ...        |
@@ -71,6 +71,14 @@ Besides I'm doing small projects in each day, those will be available in individ
 │   │   └── images/
 │   ├── .gitignore
 │   ├── index.html
+│   └── README.md
+├── Day-04/
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   └── images/
+│   ├── flexbox.html
+│   ├── grid.html
 │   └── README.md
 └── README.md
 

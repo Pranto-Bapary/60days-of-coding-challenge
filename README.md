@@ -21,7 +21,7 @@ In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, Ja
 ## 📊 Progress Tracker
 
 **Current Progress**  
-`███░░░░░░░░░░░░░` **4/60 Days - 6.6% Completed** 🎉
+`████░░░░░░░░░░░` **5/60 Days - 8% Completed** 🎉
 
 | Day | Topic / Task                           | Status     |
 | --- | -------------------------------------- | ---------- |
@@ -29,7 +29,7 @@ In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, Ja
 | 2   | Forms & Inputs                         | ✅ Done   |
 | 3   | CSS Selectors & Box Model              | ✅ Done   |
 | 4   | Flexbox & Grid Layouts                 | ✅ Done   |
-| 5   | Responsive Design                      | ⏳ Pending |
+| 5   | Responsive Design (Flexbox & Grid)     | ✅ Done   |
 | 6   | Mini Landing Page                      | ⏳ Pending |
 | ... | ...                                    | ...        |
 | 60  | Final Review + Internship Applications | ⏳ Pending |
@@ -48,8 +48,8 @@ Here are some exciting projects I’ll be building throughout the challenge usin
 - 🛒 **E-Commerce Cart (React)**
 - 📰 **Blog App**
 
-Each project will be available in this repo with live demo links!
-Besides I'm doing small projects in each day, those will be available in individual day's repo.
+Each project will be available in this repo with live demo links!  
+Besides, I’m doing small projects every day — those will be available in the respective day’s folder.
 
 ---
 
@@ -80,10 +80,18 @@ Besides I'm doing small projects in each day, those will be available in individ
 │   ├── flexbox.html
 │   ├── grid.html
 │   └── README.md
+├── Day-05/
+│   ├── assets/
+│   │   ├── css/
+│   │   │   ├── flexbox_responsive.css
+│   │   │   ├── grid_responsive.css
+│   │   │   └── style.css
+│   │   └── images/
+│   ├── flexbox_responsive.html
+│   ├── grid_responsive.html
+│   └── README.md
 └── README.md
-
 ```
-
 
 ---
 

@@ -1,0 +1,175 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
+
+
+/* Universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+}
+
+/* For Grid */
+.container {
+  max-width: 991px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.card {
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 0%;
+  background: rgba(230, 43, 74, 0.8);
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.card:hover::before {
+  width: 100%;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.card .card-text {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.card .card-text a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+
+.card .card-text h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.card:hover img {
+  transform: scale(1.07);
+}
+
+.card:hover .card-text {
+  opacity: 1;
+  visibility: visible;
+  left: 25px;
+}
+
+.card .card-text a:hover,
+.card .card-text h4:hover {
+  color: black;
+}
+
+/* For Flexbox */
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  max-width: 991px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 0 auto;
+  padding:  4% 0;
+  border: 2px solid navy;
+}
+
+.flex-item {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.item-1:hover{
+    background: pink;
+    color: white;
+}
+
+.item-2:hover{
+    background: yellow;
+    color: black;
+}
+
+.item-3:hover{
+    background: olivedrab;
+    color: white;
+}
+
+.item-4:hover{
+    background: brown;
+    color: white;
+}
+
+.item-5:hover{
+    background: black;
+    color: white;
+}
+
+.item-6:hover{
+    background: skyblue;
+    color: black;
+}

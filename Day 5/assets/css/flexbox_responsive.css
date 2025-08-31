@@ -1,0 +1,35 @@
+/* Flexbox Responsive */
+@media(max-width: 850px){
+  .flex-container{
+    gap: 15px;
+  }
+
+  .flex-item{
+    width: 360px;
+  }
+}
+
+@media(max-width: 767px){
+  .flex-container{
+    padding: 3%;
+    gap: 25px;
+  }
+  .flex-item{
+    width: 100%;
+  }
+}
+
+@media(max-width: 576px){
+  .flex-container{
+    gap: 14px;
+  }
+  h1{
+    font-size: 1.3rem;
+  }
+}
+
+@media(max-width: 376px){
+  h1{
+    font-size: 1.1rem;
+  }
+}

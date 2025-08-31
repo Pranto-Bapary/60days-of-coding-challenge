@@ -44,10 +44,11 @@ The landing page includes **five structured sections**:
 ## 📸 Preview
 
 <p align="center">
-  <img src="./assets/images/mobo_responsive.png" alt="Mobile Screenshot" width="250px">
-  <img src="./assets/images/tablet_responsive.png" alt="Tablet Screenshot" width="400px">
+  <img src="./assets/images/mobo_responsive.png" alt="Mobile Screenshot" width="250px"><br>
+  <img src="./assets/images/tablet_responsive.png" alt="Tablet Screenshot" width="400px"><br>
   <img src="./assets/images/desktop_responsive.png" alt="Desktop Screenshot" width="600px">
 </p>
+
 
 
 ---

@@ -17,7 +17,7 @@ I built two separate responsive layouts:
 ---
 
 ## 📂 Folder Structure
-
+```
 Day-5/
 │── assets/
 │ ├── css/
@@ -28,7 +28,7 @@ Day-5/
 │── flexbox_responsive.html
 │── grid_responsive.html
 └── README.md
-
+```
 ---
 
 ## 🛠️ Features

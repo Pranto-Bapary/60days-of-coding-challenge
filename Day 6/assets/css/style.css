@@ -1,0 +1,235 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Removing default margin paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  color: #777777;
+}
+
+/* Custom Classes */
+.text-purple {
+  color: #8845f4;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 35px;
+  background: #8845f4;
+  color: #ffffff;
+  font-size: 0.9em;
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background: #5412bc;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Margin Padding for All Sections */
+section {
+  padding: 2em;
+  margin-bottom: 5px;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 25px;
+  margin-bottom: 20px;
+  box-shadow: 2px 5px 10px rgba(137, 130, 247, 0.2);
+}
+
+.navbar .nav-text a {
+  color: #777777;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.navbar .nav-text a span {
+  color: #8845f4;
+}
+
+.navbar .nav-links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .nav-links ul li {
+  position: relative;
+  margin-right: 25px;
+}
+
+.navbar .nav-links ul li::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #8845f4;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .nav-links ul li:hover::after {
+  width: 100%;
+}
+
+.navbar .nav-links ul li a {
+  text-decoration: none;
+  color: #777777;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.navbar .nav-links ul li a:hover {
+  color: #5412bc;
+}
+
+/* Header Section */
+.header {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.header .left h1 {
+  margin-bottom: 15px;
+}
+
+.header .left h4 {
+  margin-bottom: 15px;
+}
+
+.header .left p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.header .right {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header .right img {
+  height: 280px;
+  width: 300px;
+}
+
+/* Future Goal Section */
+.future-goal {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+}
+
+.future-goal .goal-left img {
+  height: 320px;
+  width: 320px;
+}
+
+.future-goal .goal-right h2,
+h4 {
+  margin-bottom: 15px;
+}
+
+.future-goal .goal-right p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/* Experience Section */
+.experience h2 {
+  margin-bottom: 25px;
+}
+
+.experience .experience-single {
+  padding: 0 10px;
+  border-left: 2px solid rgba(137, 130, 247, 0.2);
+}
+
+.experience .experience-single h3,
+.experience .experience-single h4 {
+  margin-bottom: 10px;
+}
+
+.experience .experience-single .exp {
+  padding-top: 25px;
+}
+
+.experience .experience-single p {
+  text-align: justify;
+}
+
+/* Footer */
+footer {
+  padding: 25px;
+  background-color: #fff;
+  color: #777777;
+  text-align: center;
+  border-top: 1px solid #8845f4;
+  justify-content: center;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+
+  .header .left h1 {
+    line-height: 36px;
+    margin-bottom: 7px;
+  }
+  .header .right {
+    grid-row: 1/2;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .future-goal {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .future-goal .goal-left {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    height: 80px;
+    flex-direction: column;
+    padding: 10px 25px;
+  }
+}

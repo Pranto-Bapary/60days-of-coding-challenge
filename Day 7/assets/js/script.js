@@ -1,3 +1,6 @@
+// Preloader
+
+// Hamburger Menu
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -17,11 +20,15 @@ navLink.forEach((link) => {
 const swiper = new Swiper(".swiper", {
   // Optional parameters
   loop: true,
+  effect: "fade",
 
   // Navigation arrows
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+  autoplay: {
+    delay: 5000,
   },
 });
 
@@ -90,3 +97,20 @@ $(".brand-carousel .owl-carousel").owlCarousel({
 
 // AOS
 AOS.init();
+
+/*---------------------
+Scroll to Top Button
+--------------------*/
+const topBtn = document.querySelector('.topBtn');
+window.addEventListener("scroll", function () {
+    if (window.pageYOffset > 150) {
+        topBtn.classList.add("active");
+    } else {
+        topBtn.classList.remove("active");
+    }
+});
+
+topBtn.addEventListener("click", function () {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+});

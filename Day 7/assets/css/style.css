@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
   letter-spacing: 1.25px;
@@ -975,6 +979,43 @@ body {
 .footer-bottom-wrapper p {
   font-size: 0.9rem;
   font-weight: 300;
+}
+
+/* Scroll to Top Button */
+/* scroll to top button */
+.topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 35px;
+  height: 35px;
+  background: #666;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 34px;
+  opacity: 0;
+  z-index: 1000;
+  pointer-events: none;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.topBtn i {
+  font-size: .8rem;
+}
+
+.topBtn:hover {
+  background: #7e883a;
+  color: #fff;
+}
+
+.topBtn.active {
+  bottom: 40px;
+  pointer-events: auto;
+  opacity: 1;
 }
 
 /* Hamburger Menu */

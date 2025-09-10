@@ -1,4 +1,9 @@
 // Preloader
+$(document).ready(function () {
+    /* ---------------------------- Preloader ---------------------------- */
+    $(window).on("load", function () {
+        $('.preloader').fadeOut("slow");
+    });
 
 // Hamburger Menu
 const hamburger = document.querySelector(".hamburger");
@@ -113,4 +118,6 @@ window.addEventListener("scroll", function () {
 topBtn.addEventListener("click", function () {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+});
+
 });

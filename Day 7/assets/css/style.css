@@ -895,12 +895,12 @@ body {
 #footer .footer-left .letter-box input {
   height: 100%;
   width: 100%;
-  font-family: 'Lato';
+  font-family: "Lato";
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: .7rem;
+  font-size: 0.7rem;
   padding: 25px 30px;
   border: none;
   outline: none;
@@ -908,37 +908,37 @@ body {
   background: #262626;
 }
 
-#footer .footer-left .letter-box i{
-  font-size: .8rem;
+#footer .footer-left .letter-box i {
+  font-size: 0.8rem;
   color: #7e883a;
   position: absolute;
-  right: 30px
+  right: 30px;
 }
 
-.footer-single{
+.footer-single {
   margin-top: 5rem;
 }
 
-.footer-single ul{
+.footer-single ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.footer-single ul li a{
+.footer-single ul li a {
   text-decoration: none;
   color: #747474;
   text-transform: uppercase;
-  font-size: .7rem;
-  transition: .3s ease;
+  font-size: 0.7rem;
+  transition: 0.3s ease;
 }
 
-.footer-single ul li a:hover{
+.footer-single ul li a:hover {
   color: #7e883a;
 }
 
-.footer-wrapper{
+.footer-wrapper {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 50px;
@@ -947,36 +947,35 @@ body {
   padding-bottom: 4rem;
 }
 
-.footer-right{
+.footer-right {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   gap: 10px;
 }
 
-.footer-right .title-h1{
+.footer-right .title-h1 {
   color: #7e883a;
   text-align: left;
   margin-bottom: 1rem;
 }
 
-.footer-right .title-h1::after{
+.footer-right .title-h1::after {
   text-align: left;
   margin: 10px 0;
 }
 
-.footer-bottom-wrapper{
+.footer-bottom-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: #747474;
 }
 
-.footer-bottom-wrapper p{
-  font-size: .9rem;
+.footer-bottom-wrapper p {
+  font-size: 0.9rem;
   font-weight: 300;
 }
-
 
 /* Hamburger Menu */
 @media screen and (max-width: 768px) {
@@ -1010,6 +1009,11 @@ body {
     text-align: center;
     flex-direction: column;
     transition: 0.3s;
+    z-index: 999;
+  }
+
+  .nav-menu .nav-list a {
+    padding: 0 1rem;
   }
 
   .nav-menu.active {
@@ -1034,5 +1038,151 @@ body {
 
   .navbar-icons {
     display: none;
+  }
+
+  .single-hero {
+    width: 375px;
+    height: 270px;
+  }
+
+  .hero-contents {
+    transform: translate(5px, -210px);
+  }
+
+  .hero-image img {
+    object-fit: cover;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+
+  .sub-heading {
+    font-size: 1.1rem;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+  }
+
+  .btn {
+    font-size: 0.75rem;
+    height: inherit;
+    width: inherit;
+  }
+
+  #discount {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .gallary-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .gallary-single {
+    width: 375px;
+    text-align: center;
+  }
+
+  .gallary-single img {
+    width: 320px;
+  }
+
+  .two img {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+
+  .products-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .product-box-description {
+    padding: 1rem 0;
+  }
+
+  .parallax-heading {
+    text-align: center;
+  }
+
+  #service .service-wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  #service .circle {
+    height: 70px;
+    width: 70px;
+  }
+
+  #service .circle i {
+    font-size: 1rem;
+  }
+
+  #service .service-single h4 {
+    font-size: 1rem;
+  }
+
+  #service .service-single p {
+    font-size: 0.9rem;
+  }
+
+  #testimonial .testimonial-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  #new-arrival .categories {
+    display: block;
+    text-align: center;
+    margin: 1rem 2.5rem;
+}
+
+  .testimonial-single h6 {
+    margin-top: 3.5rem;
+  }
+
+  .testimonial-single h4 {
+    font-size: 1rem;
+  }
+
+  .blog-single {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-single .blog-img {
+    position: relative;
+    height: 270px;
+    width: 100%;
+  }
+
+  .parallax-3-wrapper {
+    grid-template-columns: minmax(300px, 1fr);
+}
+
+  .footer-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-right {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom-wrapper {
+    flex-direction: column;
+  }
+
+  .footer-bottom-wrapper p {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+  }
+  .footer-single {
+    margin-top: 2rem;
+  }
+  .payment-methods img {
+    width: 200px;
   }
 }

@@ -27,10 +27,10 @@ $('.product-carousel .owl-carousel').owlCarousel({
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:false
         },
         768:{
-            items:3,
+            items:1,
             nav:false
         },
         991:{

@@ -979,8 +979,10 @@ body {
 
 /* Hamburger Menu */
 @media screen and (max-width: 768px) {
+
   .hamburger {
     display: block;
+    cursor: pointer;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -1041,7 +1043,7 @@ body {
   }
 
   .single-hero {
-    width: 375px;
+    width: 100% !important;
     height: 270px;
   }
 

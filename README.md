@@ -21,18 +21,23 @@ In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, Ja
 ## 📊 Progress Tracker
 
 **Current Progress**  
-`████░░░░░░░░░░░` **5/60 Days - 8% Completed** 🎉
+`█████░░░░░░░░░` **8/60 Days - 13% Completed** 🎉
 
-| Day | Topic / Task                           | Status     |
-| --- | -------------------------------------- | ---------- |
-| 1   | HTML Basics & Semantic Tags            | ✅ Done   |
-| 2   | Forms & Inputs                         | ✅ Done   |
-| 3   | CSS Selectors & Box Model              | ✅ Done   |
-| 4   | Flexbox & Grid Layouts                 | ✅ Done   |
-| 5   | Responsive Design (Flexbox & Grid)     | ✅ Done   |
-| 6   | Mini Landing Page                      | ⏳ Pending |
-| ... | ...                                    | ...        |
-| 60  | Final Review + Internship Applications | ⏳ Pending |
+| Day | Topic / Task                                           | Status     |
+| --- | ------------------------------------------------------ | ---------- |
+| 1   | HTML Basics & Semantic Tags                            | ✅ Done   |
+| 2   | Forms & Inputs                                         | ✅ Done   |
+| 3   | CSS Selectors & Box Model                              | ✅ Done   |
+| 4   | Flexbox & Grid Layouts                                 | ✅ Done   |
+| 5   | Responsive Design (Flexbox & Grid)                     | ✅ Done   |
+| 6   | Mini Landing Page                                      | ✅ Done   |
+| 7   | Review: Rebuild a multi section website from scratch   | ✅ Done   |
+| 8   | JavaScript Basics (variables, types, arrow functions)  | ✅ Done   |
+| 9   | Arrays & Objects (map/filter/reduce/forEach/find)      | ⏳ Pending |
+| 10  | DOM Manipulation (querySelector, events, classList)    | ⏳ Pending |
+| ... | ...                                                    | ...        |
+| 60  | Final Review + Internship Applications                 | ⏳ Pending |
+
 
 ---
 
@@ -40,9 +45,9 @@ In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, Ja
 
 Here are some exciting projects I’ll be building throughout the challenge using React:
 
-- 📄 **Portfolio Website**
 - ✅ **Responsive Landing Page**
-- 📝 **To-do App**
+- ✅ **Responsive Multi Section Ecommerce Website**
+- 📝 **Stylish To-do App**
 - 🌦️ **Weather Dashboard**
 - 🎬 **Movie Search App**
 - 🛒 **E-Commerce Cart (React)**
@@ -53,6 +58,9 @@ Besides, I’m doing small projects every day — those will be available in the
 
 ---
 
+## 📂 Repository Structure
+
+```plaintext
 ## 📂 Repository Structure
 
 ```plaintext
@@ -89,6 +97,17 @@ Besides, I’m doing small projects every day — those will be available in the
 │   │   └── images/
 │   ├── flexbox_responsive.html
 │   ├── grid_responsive.html
+│   └── README.md
+├── Day-06/
+│   ├── assets/
+│   ├── index.html
+│   └── README.md
+├── Day-07/
+│   ├── assets/
+│   ├── index.html
+│   └── README.md
+├── Day-08/
+│   ├── index.js
 │   └── README.md
 └── README.md
 ```

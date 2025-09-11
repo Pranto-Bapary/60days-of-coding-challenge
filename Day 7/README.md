@@ -46,11 +46,11 @@ Day-7-Leka-Ecommerce/
 ---
 
 ## 📸 Preview
-*(Add your screenshots inside `assets/images/` and update below)*
-
-- **Mobile View:** ![Mobile Screenshot](./assets/images/mobo_responsive.png)  
-- **Tablet View:** ![Tablet Screenshot](./assets/images/tab_responsive.png)  
-- **Desktop View:** ![Desktop Screenshot](./assets/images/desktop_responsive.png)  
+<p align="center">
+  <img src="./assets/images/mobo_responsive.png" alt="Mobile Screenshot" width="250px"><br>
+  <img src="./assets/images/tablet_responsive.png" alt="Tablet Screenshot" width="400px"><br>
+  <img src="./assets/images/desktop_responsive.png" alt="Desktop Screenshot" width="600px">
+</p>
 
 ---
 

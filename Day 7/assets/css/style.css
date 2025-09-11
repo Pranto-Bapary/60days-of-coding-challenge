@@ -516,12 +516,12 @@ body {
 }
 
 /* Parallax Section */
-#parallax {
+#parallax, .parallax {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("../images/parallax1.jpg") center center no-repeat fixed;
-  position: sticky;
+  background: url("../images/parallax1.jpg") center center no-repeat;
+  position: relative;
   margin: 72px 0;
   padding: 18rem 0;
 }
@@ -1017,7 +1017,6 @@ body {
   font-weight: 300;
 }
 
-/* Scroll to Top Button */
 /* scroll to top button */
 .topBtn {
   position: fixed;
@@ -1054,7 +1053,28 @@ body {
   opacity: 1;
 }
 
-/* Hamburger Menu */
+/* Scrolling Active */
+.scrolling-active {
+  background: #111 !important;
+  animation: flipInX 1s ease-in-out;
+}
+
+@keyframes flipInX {
+  0% {
+    transform: perspective(400px) rotateX(90deg);
+  }
+  40% {
+    transform: perspective(400px) rotateX(-10deg);
+  }
+  70% {
+    transform: perspective(400px) rotateX(10deg);
+  }
+  100% {
+    transform: perspective(400px) rotateX(0deg);
+  }
+}
+
+/* Responsiveness */
 @media screen and (max-width: 768px) {
 
   .hamburger {
@@ -1163,12 +1183,12 @@ body {
   }
 
   .gallary-single {
-    width: 375px;
+    width: 100%;
     text-align: center;
   }
 
   .gallary-single img {
-    width: 320px;
+    width: 100%;
   }
 
   .two img {
@@ -1181,8 +1201,9 @@ body {
   }
 
   .product-box-description {
+    width: 100%;
     padding: 1rem 0;
-  }
+}
 
   .parallax-heading {
     text-align: center;

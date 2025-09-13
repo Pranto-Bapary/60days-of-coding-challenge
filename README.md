@@ -20,8 +20,10 @@ In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, Ja
 
 ## 📊 Progress Tracker
 
+## 📊 Progress Tracker
+
 **Current Progress**  
-`█████░░░░░░░░░` **8/60 Days - 13% Completed** 🎉
+`███████░░░░░░░` **10/60 Days - 17% Completed** 🎉
 
 | Day | Topic / Task                                           | Status     |
 | --- | ------------------------------------------------------ | ---------- |
@@ -31,12 +33,14 @@ In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, Ja
 | 4   | Flexbox & Grid Layouts                                 | ✅ Done   |
 | 5   | Responsive Design (Flexbox & Grid)                     | ✅ Done   |
 | 6   | Mini Landing Page                                      | ✅ Done   |
-| 7   | Review: Rebuild a multi section website from scratch   | ✅ Done   |
+| 7   | Review: Rebuild one page from scratch                  | ✅ Done   |
 | 8   | JavaScript Basics (variables, types, arrow functions)  | ✅ Done   |
-| 9   | Arrays & Objects (map/filter/reduce/forEach/find)      | ⏳ Pending |
-| 10  | DOM Manipulation (querySelector, events, classList)    | ⏳ Pending |
+| 9   | Arrays & Objects (map/filter/reduce/forEach/find)      | ✅ Done   |
+| 10  | DOM Manipulation (querySelector, events, classList)    | ✅ Done   |
+| 11  | LocalStorage + Small To-do App                         | ⏳ Pending |
 | ... | ...                                                    | ...        |
 | 60  | Final Review + Internship Applications                 | ⏳ Pending |
+
 
 
 ---
@@ -109,7 +113,14 @@ Besides, I’m doing small projects every day — those will be available in the
 ├── Day-08/
 │   ├── index.js
 │   └── README.md
+├── Day-09/
+│   ├── index.js
+│   └── README.md
+├── Day-10/
+│   ├── index.html
+│   └── README.md
 └── README.md
+
 ```
 
 ---

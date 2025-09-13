@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manupulations | Day 10</title>
+    <style>
+        body.active {
+            background-color: #333;
+            color: #fff;
+        }
+
+        button {
+            display: block;
+            padding: 15px 20px;
+            background: blueviolet;
+            font-family: 'Arial';
+            font-size: 14px;
+            color: #fff;
+            outline: none;
+            border: none;
+            border-radius: 15px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: .3s ease;
+        }
+
+        button:hover {
+            background: rgb(132, 0, 255);
+            color: #fff;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- DOM Manupulations -->
+    <h1 id="heading"></h1>
+    <p>Practicing DOM</p>
+
+    <p>Frontend Learning Path: </p>
+    <ul>
+        <li class="list-item">HTML</li>
+        <li class="list-item">CSS</li>
+        <li class="list-item">JavaScript</li>
+        <li class="list-item">Tailwind CSS</li>
+        <li class="list-item">React</li>
+    </ul>
+
+    <span>Tools & Technologies:</span>
+    <span>VS Code</span>
+    <span>Figma</span>
+    <span>Netlify</span>
+    <span>Render</span>
+    <span>Vercel</span>
+
+    <button id="btn">Click Me to Change BG</button>
+
+    <script>
+
+        // Task 1: Change Heading Contents using getElementByID
+        const head = document.getElementById('heading')
+        head.innerHTML = "DOM is Fun"
+
+        // Task 2: Select All paragraphs and change its color, font size using querySelectorAll
+        const paragraph = document.querySelectorAll('p') //querySelectorAll returns an array of same elements
+        paragraph[0].style.color = "red"
+        paragraph[0].style.fontSize = "20px"
+
+        paragraph[1].style.color = "olive"
+
+        // Task 3: Grab the lists and change all of their colors using getElementsByClassName
+        const lists = document.getElementsByClassName('list-item')
+        lists[0].style.color = "red"
+        lists[1].style.color = "green"
+        lists[2].style.color = "blue"
+        lists[3].style.color = "pink"
+        lists[4].style.color = "violet"
+
+        // Task 4: Grab all of the spans using a loop and change their font weights
+        const spans = document.getElementsByTagName('span')
+        for (let i = 0; i < spans.length; i++) {
+            spans[i].style.fontWeight = "bold"
+        }
+
+        // Task 5: Create a button and toggle body's background color using eventlistenters
+        const button = document.getElementById('btn')
+        const body = document.body
+        button.addEventListener('click', () => {
+            if (!body.classList.contains('active')) {
+                body.classList.add('active')
+            } else {
+                body.classList.remove('active')
+            }
+        })
+
+    </script>
+</body>
+
+</html>

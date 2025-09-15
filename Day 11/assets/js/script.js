@@ -15,7 +15,7 @@ let taskCount = 0;
 
 /*----------------------------
         Event Listeners
-----------------------------*/ 
+----------------------------*/
 
 // Add Functionality
 addButton.addEventListener("click", (e) => {
@@ -38,10 +38,16 @@ taskContainer.addEventListener("click", (e) => {
 
 // Clear all of the tasks at once
 clearTasks.addEventListener("click", () => {
-  alert("Are you sure you want to clear all completed tasks?");
-  taskContainer.innerHTML = null;
-  taskCount = 0;
-  tasksRemainingFunction(taskCount);
+  if (taskCount === 0) {
+    alert("No tasks to clear");
+  } else {
+    alert("Are you sure you want to clear all completed tasks?");
+    taskContainer.innerHTML = null;
+    taskCount = 0;
+    tasksRemainingFunction(taskCount);
+    taskContainer.appendChild(emptyState)
+    emptyState.classList.remove('active')
+  }
 });
 
 // Update Functionality
@@ -51,10 +57,9 @@ taskContainer.addEventListener("click", (e) => {
   }
 });
 
-
 /*----------------------------
         Functions
-----------------------------*/ 
+----------------------------*/
 
 // Add New Tasks Function
 const createNewTask = () => {
@@ -112,3 +117,4 @@ const tasksRemainingFunction = (taskCount) => {
     taskCount > 0 ? "tasks" : "task"
   } remaining`;
 };
+

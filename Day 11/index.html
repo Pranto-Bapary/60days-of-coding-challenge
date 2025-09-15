@@ -1,50 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task Manager</title>
     <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <!-- Container -->
     <div class="container">
-        <!-- Task Header -->
-        <div class="header">
-            <h1><i class="fas fa-tasks"></i> Task Manager</h1>
-            <p>Organize your day with ease</p>
+      <!-- Task Header -->
+      <div class="header">
+        <h1><i class="fas fa-tasks"></i> Task Manager</h1>
+        <p>Organize your day with ease</p>
+      </div>
+      <!-- Task Body -->
+      <div class="app-body">
+        <div class="input-area">
+          <input type="text" placeholder="Add a new task..." id="taskInput" />
+          <button id="add-btn"><i class="fas fa-plus" id="plus"></i></button>
         </div>
-        <!-- Task Body -->
-        <div class="app-body">
-            <div class="input-area">
-                <input type="text" placeholder="Add a new task..." id="taskInput">
-                <button id="add-btn"><i class="fas fa-plus" id="plus"></i></button>
-            </div>
-            <!-- Filter Buttons -->
-            <div class="filter-buttons">
-                <button class="active">All Tasks</button>
-                <button>Active</button>
-                <button>Completed</button>
-            </div>
-            <!-- Tasks Container -->
-            <div class="tasks-container">
-                <!-- Tasks will be added here dynamically using JavaScript -->
-                 <div class="empty-state" id="empty-state">
-                    <i class="fas fa-check-circle"></i>
-                    <p>No tasks to display. Add a task to get started!</p>
-                </div>
-            </div>
-            <!-- Task Status -->
-            <div class="stats">
-                <span id="task-remaining">0 task remaining</span>
-                <span id="clear-task">Clear completed</span>
-            </div>
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+          <button class="filter" id="all-btn">All Tasks</button>
+          <button class="filter" id="active-btn">Active</button>
+          <button class="filter" id="completed-btn">Completed</button>
         </div>
+
+        <!-- Tasks Container -->
+        <div class="tasks-container">
+          <!-- Tasks will be added here dynamically using JavaScript -->
+          <div class="empty-state" id="empty-state">
+            <i class="fas fa-check-circle"></i>
+            <p>No tasks to display. Add a task to get started!</p>
+          </div>
+        </div>
+        <!-- Task Status -->
+        <div class="stats">
+          <span id="task-remaining">0 task remaining</span>
+          <span id="clear-task">Clear completed</span>
+        </div>
+      </div>
     </div>
     <!-- JavaScript -->
-     <script src="assets/js/script.js"></script>
-</body>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>

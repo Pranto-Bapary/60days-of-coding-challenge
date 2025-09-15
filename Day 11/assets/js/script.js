@@ -11,6 +11,10 @@ const emptyState = document.getElementById("empty-state");
 const updateIcon = document.getElementById("plus");
 const tasksRemaining = document.getElementById("task-remaining");
 const clearTasks = document.getElementById("clear-task");
+const allButton = document.getElementById("all-btn");
+const activeButton = document.getElementById("active-btn");
+const completedButton = document.getElementById("completed-btn");
+const filterButtons = document.querySelectorAll(".filter");
 let taskCount = 0;
 
 /*----------------------------
@@ -45,8 +49,8 @@ clearTasks.addEventListener("click", () => {
     taskContainer.innerHTML = null;
     taskCount = 0;
     tasksRemainingFunction(taskCount);
-    taskContainer.appendChild(emptyState)
-    emptyState.classList.remove('active')
+    taskContainer.appendChild(emptyState);
+    emptyState.classList.remove("active");
   }
 });
 
@@ -56,6 +60,11 @@ taskContainer.addEventListener("click", (e) => {
     updateTask(e);
   }
 });
+
+// Filter
+allButton.addEventListener("click", () => setFilter("all"));
+activeButton.addEventListener("click", () => setFilter("active"));
+completedButton.addEventListener("click", () => setFilter("completed"));
 
 /*----------------------------
         Functions
@@ -67,13 +76,15 @@ const createNewTask = () => {
   const newTask = document.createElement("div");
 
   newTask.classList.add("task");
-  newTask.innerHTML = ` <input type="checkbox">
-    <span class="task-text">${taskInputValue}</span>
-    <div class="task-actions">
-        <button class="edit-btn"><i class="fas fa-edit"></i></button>
-        <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
-    </div>
-    `;
+  newTask.innerHTML = `
+  <input type="checkbox" class="task-checkbox">
+  <span class="task-text">${taskInputValue}</span>
+  <div class="task-actions">
+      <button class="edit-btn"><i class="fas fa-edit"></i></button>
+      <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+  </div>
+`;
+
 
   // Form Validation
   if (
@@ -113,8 +124,30 @@ const clearInput = () => (document.getElementById("taskInput").value = "");
 
 // Tasks Remaining Function
 const tasksRemainingFunction = (taskCount) => {
-  tasksRemaining.innerText = `${taskCount} ${
-    taskCount > 0 ? "tasks" : "task"
-  } remaining`;
+  tasksRemaining.innerText = `${taskCount} ${ taskCount === 1 ? "task" : "tasks" } remaining`;
+
 };
 
+// Filter Function
+const setFilter = (type) => {
+  filterButtons.forEach((btn) => btn.classList.remove("active"));
+  if (type === "all") allButton.classList.add("active");
+  if (type === "active") activeButton.classList.add("active");
+  if (type === "completed") completedButton.classList.add("active");
+
+  filterTasks(type);
+};
+
+const filterTasks = (type) => {
+  const tasks = taskContainer.querySelectorAll(".task");
+  tasks.forEach((task) => {
+    const checkbox = task.querySelector(".task-checkbox");
+    if (type === "all") {
+      task.style.display = "flex";
+    } else if (type === "active") {
+      task.style.display = checkbox.checked ? "none" : "flex";
+    } else if (type === "completed") {
+      task.style.display = checkbox.checked ? "flex" : "none";
+    }
+  });
+};

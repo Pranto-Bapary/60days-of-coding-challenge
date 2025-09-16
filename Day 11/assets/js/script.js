@@ -90,6 +90,7 @@ const createNewTask = () => {
     (taskInputValue !== "" && taskInputValue.length > 4) ||
     taskInputValue === null
   ) {
+    saveTasks();
     taskCount++;
     taskContainer.appendChild(newTask);
   } else {
@@ -102,8 +103,8 @@ const createNewTask = () => {
 
 // Remove Tasks Function
 const removeTask = (e) => {
-  const currentTask = e.target.parentElement.parentElement.parentElement;
-  taskContainer.removeChild(currentTask);
+  const currentTask = e.target.closest(".task");
+  taskContainer.remove();
   taskCount--;
   if (taskCount === 0) {
     emptyState.classList.remove("active");
@@ -113,9 +114,20 @@ const removeTask = (e) => {
 
 // Update Tasks Function
 const updateTask = (e) => {
-  const updatedTaskName = prompt("Enter your updated task...");
-  e.target.parentElement.parentElement.parentElement.children[1].innerHTML =
-    updatedTaskName;
+  const task = e.target.closest(".task");
+  const taskText = task.querySelector(".task-text");
+  const updatedTaskName = prompt(
+    "Enter your updated task...",
+    taskText.innerText
+  );
+  if (updatedTaskName !== null && updatedTaskName.trim() !== "") {
+    if (updatedTaskName.trim().length >= 5) {
+      taskText.textContent = updatedTaskName.trim();
+      saveTasks();
+    } else {
+      alert("Task must be at least 5 characters long");
+    }
+  }
 };
 
 // Clear Input Field Function
@@ -150,4 +162,22 @@ const filterTasks = (type) => {
       task.style.display = checkbox.checked ? "flex" : "none";
     }
   });
+};
+
+// Save Tasks to Local Storage
+
+const saveTasks = () => {
+  let tasks = [];
+  taskContainer.querySelectorAll(".task").forEach((currentItem) => {
+    tasks.push(currentItem.textContent.trim());
+  });
+
+  localStorage.setItem("tasks", JSON.stringify(tasks));
+};
+
+// Load Tasks from Local Storage
+
+const loadTasks = () => {
+  const tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+  tasks.forEach(createTaskElement);
 };

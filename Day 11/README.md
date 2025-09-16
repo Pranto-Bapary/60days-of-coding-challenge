@@ -84,11 +84,11 @@ Day-11/
 </p>
 
 <p align="center">
-  <img src="./assets/screenshots/tablet.png" alt="Task Manager Screenshot for Tablet" style="max-width:800px; width:100%; height:auto;">
+  <img src="./assets/screenshots/tablet.png" alt="Task Manager Screenshot for Tablet" style="max-width:600px; width:100%; height:auto;">
 </p>
 
 <p align="center">
-  <img src="./assets/screenshots/mobile.png" alt="Task Manager Screenshot for Mobile" style="max-width:800px; width:100%; height:auto;">
+  <img src="./assets/screenshots/mobile.png" alt="Task Manager Screenshot for Mobile" style="max-width:400px; width:100%; height:auto;">
 </p>
 
 ---

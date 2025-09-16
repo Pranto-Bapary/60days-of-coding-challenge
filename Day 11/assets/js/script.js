@@ -72,7 +72,7 @@ completedButton.addEventListener("click", () => setFilter("completed"));
 
 // Add New Tasks Function
 const createNewTask = () => {
-  let taskInputValue = document.getElementById("taskInput").value;
+  let taskInputValue = document.getElementById("taskInput").value.trim(); //ensures only whitespaces can't be added as a task
   const newTask = document.createElement("div");
 
   newTask.classList.add("task");
@@ -84,7 +84,6 @@ const createNewTask = () => {
       <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
   </div>
 `;
-
 
   // Form Validation
   if (
@@ -124,8 +123,9 @@ const clearInput = () => (document.getElementById("taskInput").value = "");
 
 // Tasks Remaining Function
 const tasksRemainingFunction = (taskCount) => {
-  tasksRemaining.innerText = `${taskCount} ${ taskCount === 1 ? "task" : "tasks" } remaining`;
-
+  tasksRemaining.innerText = `${taskCount} ${
+    taskCount === 1 ? "task" : "tasks"
+  } remaining`;
 };
 
 // Filter Function

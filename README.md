@@ -56,16 +56,17 @@
 
 ## 🛠️ Projects Completed So Far  
 
-| Project                                 |                                 Day                                |                             Status                             | Live Demo                                                 |
-| --------------------------------------- | :----------------------------------------------------------------: | :------------------------------------------------------------: | :-------------------------------------------------------- |
-| **Responsive Landing Page**             |  ![#4CAF50](https://via.placeholder.com/15/4CAF50/000000?text=+) 6 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-landing-page.netlify.app/) |
-| **Responsive Multi-Section E-Commerce** |  ![#4CAF50](https://via.placeholder.com/15/4CAF50/000000?text=+) 7 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://leka-ecommerce.netlify.app/)       |
-| **Task Management App (LocalStorage)**  | ![#4CAF50](https://via.placeholder.com/15/4CAF50/000000?text=+) 11 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-task-manager.netlify.app/) |
-| **Stylish To-Do App (Variant)**         |  ![#4CAF50](https://via.placeholder.com/15/4CAF50/000000?text=+) — |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](#)                                         |
-| **Weather Dashboard**                   |  ![#FFC107](https://via.placeholder.com/15/FFC107/000000?text=+) — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
-| **Movie Search App**                    |  ![#FFC107](https://via.placeholder.com/15/FFC107/000000?text=+) — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
-| **E-Commerce Cart (React)**             |  ![#FFC107](https://via.placeholder.com/15/FFC107/000000?text=+) — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
-| **Blog App**                            |  ![#FFC107](https://via.placeholder.com/15/FFC107/000000?text=+) — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| Project                                 |  Day |                             Status                             | Live Demo                                                 |
+| --------------------------------------- | :--: | :------------------------------------------------------------: | :-------------------------------------------------------- |
+| **Responsive Landing Page**             |  ✅ 6 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-landing-page.netlify.app/) |
+| **Responsive Multi-Section E-Commerce** |  ✅ 7 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://leka-ecommerce.netlify.app/)       |
+| **Task Management App (LocalStorage)**  | ✅ 11 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-task-manager.netlify.app/) |
+| **Stylish To-Do App (Variant)**         |  ✅ — |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](#)                                         |
+| **Weather Dashboard**                   |  ⏳ — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| **Movie Search App**                    |  ⏳ — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| **E-Commerce Cart (React)**             |  ⏳ — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| **Blog App**                            |  ⏳ — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+                                                      |
   
 
 ---

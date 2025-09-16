@@ -79,13 +79,19 @@ Day-11/
 
 ## 🎥 Preview
 
+**Desktop View**
+
 <p align="center">
   <img src="./assets/screenshots/desktop.png" alt="Task Manager Screenshot for Desktop" style="max-width:800px; width:100%; height:auto;">
 </p>
 
+**Tablet View**
+
 <p align="center">
   <img src="./assets/screenshots/tablet.png" alt="Task Manager Screenshot for Tablet" style="max-width:600px; width:100%; height:auto;">
 </p>
+
+**Mobile View**
 
 <p align="center">
   <img src="./assets/screenshots/mobile.png" alt="Task Manager Screenshot for Mobile" style="max-width:400px; width:100%; height:auto;">

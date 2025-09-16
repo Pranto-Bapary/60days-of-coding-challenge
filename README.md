@@ -1,29 +1,39 @@
-# 🚀 60 Days of Coding Challenge - Frontend Journey
+# 🚀 60 Days of Coding Challenge - Frontend Journey  
 
-Welcome to my **60 Days of Coding Challenge**!  
-In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, JavaScript, React) while building projects every step of the way.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+</p>
+
+<p align="center">
+  Welcome to my <b>60 Days of Coding Challenge</b>!  
+  This is a journey of consistency, creativity, and growth — where I push myself every day to become a better developer.  
+</p>
 
 ---
 
-## 📅 Challenge Overview
+## 📅 Challenge Overview  
 
-- ⏳ Duration: **60 Days (2 Months)**
-- 🎯 Goal: Become confident in frontend development & land an internship
+- ⏳ Duration: **60 Days (2 Months)**  
+- 🎯 Goal: Build confidence in frontend development & land an internship  
 - 🛠️ Tech Stack:
-  - HTML5, CSS3
-  - JavaScript (ES6+, DOM, Async/Await, Fetch)
-  - React.js (Hooks, Router, Context API)
-  - Git & GitHub
-  - Deployment (Netlify / Vercel)
+  - HTML5, CSS3  
+  - JavaScript (ES6+, DOM, Async/Await, Fetch)  
+  - React.js (Hooks, Router, Context API)  
+  - Git & GitHub  
+  - Deployment (Netlify / Vercel)  
 
 ---
 
-## 📊 Progress Tracker
-
-## 📊 Progress Tracker
+## 📊 Progress Tracker  
 
 **Current Progress**  
-`███████░░░░░░░` **10/60 Days - 17% Completed** 🎉
+`████████░░░░░░░` **11/60 Days - 18% Completed** 🎉  
 
 | Day | Topic / Task                                           | Status     |
 | --- | ------------------------------------------------------ | ---------- |
@@ -37,113 +47,74 @@ In this journey, I’m revising and sharpening my frontend skills (HTML, CSS, Ja
 | 8   | JavaScript Basics (variables, types, arrow functions)  | ✅ Done   |
 | 9   | Arrays & Objects (map/filter/reduce/forEach/find)      | ✅ Done   |
 | 10  | DOM Manipulation (querySelector, events, classList)    | ✅ Done   |
-| 11  | LocalStorage + Small To-do App                         | ⏳ Pending |
+| 11  | Task Management App (LocalStorage + Animations)        | ✅ Done   |
+| 12  | Async JS: fetch, promises, async/await                 | ⏳ Pending |
 | ... | ...                                                    | ...        |
 | 60  | Final Review + Internship Applications                 | ⏳ Pending |
 
+---
 
+## 🛠️ Projects Completed So Far  
+
+| Project                                 |                                 Day                                |                             Status                             | Live Demo                                                 |
+| --------------------------------------- | :----------------------------------------------------------------: | :------------------------------------------------------------: | :-------------------------------------------------------- |
+| **Responsive Landing Page**             |  ![#4CAF50](https://via.placeholder.com/15/4CAF50/000000?text=+) 6 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-landing-page.netlify.app/) |
+| **Responsive Multi-Section E-Commerce** |  ![#4CAF50](https://via.placeholder.com/15/4CAF50/000000?text=+) 7 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://leka-ecommerce.netlify.app/)       |
+| **Task Management App (LocalStorage)**  | ![#4CAF50](https://via.placeholder.com/15/4CAF50/000000?text=+) 11 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-task-manager.netlify.app/) |
+| **Stylish To-Do App (Variant)**         |  ![#4CAF50](https://via.placeholder.com/15/4CAF50/000000?text=+) — |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](#)                                         |
+| **Weather Dashboard**                   |  ![#FFC107](https://via.placeholder.com/15/FFC107/000000?text=+) — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| **Movie Search App**                    |  ![#FFC107](https://via.placeholder.com/15/FFC107/000000?text=+) — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| **E-Commerce Cart (React)**             |  ![#FFC107](https://via.placeholder.com/15/FFC107/000000?text=+) — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| **Blog App**                            |  ![#FFC107](https://via.placeholder.com/15/FFC107/000000?text=+) — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+  
 
 ---
 
-## 🛠️ Projects I’ll Build
-
-Here are some exciting projects I’ll be building throughout the challenge using React:
-
-- ✅ **Responsive Landing Page**
-- ✅ **Responsive Multi Section Ecommerce Website**
-- 📝 **Stylish To-do App**
-- 🌦️ **Weather Dashboard**
-- 🎬 **Movie Search App**
-- 🛒 **E-Commerce Cart (React)**
-- 📰 **Blog App**
-
-Each project will be available in this repo with live demo links!  
-Besides, I’m doing small projects every day — those will be available in the respective day’s folder.
-
----
-
-## 📂 Repository Structure
-
-```plaintext
-## 📂 Repository Structure
+## 📂 Repository Structure  
 
 ```plaintext
 60-days-of-code/
 ├── Day-01/
-│   ├── project/
-│   │   ├── contact.html
-│   │   ├── favicon.ico
-│   │   ├── index.html
-│   │   └── pranto.png
-│   └── day1.html
 ├── Day-2-3/
-│   ├── assets/
-│   │   ├── css/
-│   │   │   └── style.css
-│   │   └── images/
-│   ├── .gitignore
-│   ├── index.html
-│   └── README.md
 ├── Day-04/
-│   ├── assets/
-│   │   ├── css/
-│   │   │   └── style.css
-│   │   └── images/
-│   ├── flexbox.html
-│   ├── grid.html
-│   └── README.md
 ├── Day-05/
-│   ├── assets/
-│   │   ├── css/
-│   │   │   ├── flexbox_responsive.css
-│   │   │   ├── grid_responsive.css
-│   │   │   └── style.css
-│   │   └── images/
-│   ├── flexbox_responsive.html
-│   ├── grid_responsive.html
-│   └── README.md
 ├── Day-06/
-│   ├── assets/
-│   ├── index.html
-│   └── README.md
 ├── Day-07/
-│   ├── assets/
-│   ├── index.html
-│   └── README.md
 ├── Day-08/
-│   ├── index.js
-│   └── README.md
 ├── Day-09/
-│   ├── index.js
-│   └── README.md
 ├── Day-10/
-│   ├── index.html
-│   └── README.md
+├── Day-11/
 └── README.md
-
 ```
 
 ---
-
 ## 🌟 Goals After 60 Days
-- ✅ Build a **solid frontend portfolio**
-- ✅ Deploy projects & polish GitHub
-- ✅ Apply for internships confidently
 
+- ✔ Build a solid frontend portfolio
+- ✔ Deploy projects & polish GitHub
+- ✔ Apply for internships confidently
+- ✔ Learn the discipline of consistency in coding
 ---
 
-## 👋 About Me
-I’m a **Frontend Developer in progress** with knowledge of HTML, CSS, JavaScript, Node.js, Express, and MongoDB.
-Currently focusing on **React.js** to level up my skills and kickstart my career in web development.
+## 👨‍💻 About Me
+
+✨ Hello, I’m Pranto Bapary, a passionate Frontend Developer in progress who loves turning ideas into interactive experiences.
+* I enjoy writing clean, maintainable code and designing applications that balance performance, functionality, and beauty.
+
+- 💡 I believe in learning by building — every project I complete teaches me something new.
+- 🌱 Currently focusing on React.js to strengthen my modern web development skills.
+- 🚀 My ultimate goal is to become a skilled software engineer, contribute to impactful projects, and land a great internship.
+---
 
 ## 📫 Connect with me:
 
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranto-bapary) &nbsp;&nbsp;&nbsp;
-- [![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pranto.bapary01@gmail.com) &nbsp;&nbsp;&nbsp;
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pranto-bapary)
+- [![Email](https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pranto.bapary01@gmail.com)
 - [![Instagram](https://img.shields.io/badge/Instagram-purple?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ashfe.pranto)
-
 
 ---
 
-✨ *Follow along my journey and feel free to star ⭐ this repo if you’re also doing #100DaysOfCode or #60DaysOfCode!*
-```
+<p align="center"> ✨ “Code is like art — every line you write is a brushstroke on the canvas of innovation.”  ✨ </p> 
+<p align="center"> Made with ❤️ by <b>Pranto Bapary</b> </p> 
+
+---

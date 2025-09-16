@@ -51,6 +51,7 @@ clearTasks.addEventListener("click", () => {
     tasksRemainingFunction(taskCount);
     taskContainer.appendChild(emptyState);
     emptyState.classList.remove("active");
+    saveTasks();
   }
 });
 
@@ -58,6 +59,19 @@ clearTasks.addEventListener("click", () => {
 taskContainer.addEventListener("click", (e) => {
   if (e.target.matches(".fa-edit")) {
     updateTask(e);
+  }
+});
+
+// Save Checkboxes
+taskContainer.addEventListener("change", (e) => {
+  if (e.target.matches(".task-checkbox")) {
+    if (e.target.checked) {
+      taskCount--;
+    } else {
+      taskCount++;
+    }
+    tasksRemainingFunction(taskCount);
+    saveTasks();
   }
 });
 
@@ -90,9 +104,9 @@ const createNewTask = () => {
     (taskInputValue !== "" && taskInputValue.length > 4) ||
     taskInputValue === null
   ) {
+    taskContainer.appendChild(newTask);
     saveTasks();
     taskCount++;
-    taskContainer.appendChild(newTask);
   } else {
     let taskInput = document.getElementById("taskInput");
     taskInput.placeholder = "Enter a valid task...";
@@ -104,12 +118,14 @@ const createNewTask = () => {
 // Remove Tasks Function
 const removeTask = (e) => {
   const currentTask = e.target.closest(".task");
-  taskContainer.remove();
+  currentTask.remove();
   taskCount--;
+
   if (taskCount === 0) {
     emptyState.classList.remove("active");
   }
   tasksRemainingFunction(taskCount);
+  saveTasks();
 };
 
 // Update Tasks Function
@@ -165,19 +181,43 @@ const filterTasks = (type) => {
 };
 
 // Save Tasks to Local Storage
-
 const saveTasks = () => {
   let tasks = [];
   taskContainer.querySelectorAll(".task").forEach((currentItem) => {
-    tasks.push(currentItem.textContent.trim());
+    tasks.push({
+      text: currentItem.querySelector(".task-text").innerText,
+      completed: currentItem.querySelector(".task-checkbox").checked,
+    });
   });
 
   localStorage.setItem("tasks", JSON.stringify(tasks));
 };
 
 // Load Tasks from Local Storage
-
 const loadTasks = () => {
   const tasks = JSON.parse(localStorage.getItem("tasks")) || [];
-  tasks.forEach(createTaskElement);
+  tasks.forEach((task) => {
+    const newTask = document.createElement("div");
+    newTask.classList.add("task");
+    newTask.innerHTML = `
+      <input type="checkbox" class="task-checkbox" ${
+        task.completed ? "checked" : ""
+      }>
+      <span class="task-text">${task.text}</span>
+      <div class="task-actions">
+          <button class="edit-btn"><i class="fas fa-edit"></i></button>
+          <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+      </div>
+    `;
+    taskContainer.appendChild(newTask);
+    taskCount++;
+  });
+  tasksRemainingFunction(taskCount);
+  if (taskCount > 0) emptyState.classList.add("active");
 };
+
+// Load tasks on page refresh
+window.addEventListener("DOMContentLoaded", () => {
+  loadTasks();
+  setFilter("all");
+});

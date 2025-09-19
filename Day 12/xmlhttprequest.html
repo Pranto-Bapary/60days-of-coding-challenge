@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XML Http Request | Day 12 | 60 Days of Coding Challenge</title>
+    <link rel="stylesheet" href="assets/css/xml_css.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Cards will be added button will be hidden and infos will be fetched from github api -->
+      <button id="button">Click to view my github stat card</button>
+    </div>
+    <script>
+      let container = document.querySelector(".container");
+      const button = document.getElementById("button");
+
+      button.addEventListener("click", () => {
+        button.style.display = "none";
+        generateGithubCard();
+      });
+
+      const generateGithubCard = () => {
+        const requestUrl = "https://api.github.com/users/pranto-bapary";
+        const xhr = new XMLHttpRequest();
+        xhr.open("GET", requestUrl);
+        xhr.onreadystatechange = () => {
+          if (xhr.readyState === 4) {
+            const data = JSON.parse(xhr.responseText);
+            console.log(data.login);
+            container.innerHTML = `
+                <div class="card">
+                    <div class="card-img">
+                        <img src="${data.avatar_url}"
+                        alt="">
+                    </div>
+                <div class="card-description">
+                    <h1>${data.name}</h1>
+                    <h3>Follwers: ${data.followers}</h3>
+                </div>
+                <a href="${data.html_url}" target="_blank">Github Profile</a>
+                </div>
+                `;
+          }
+        };
+        xhr.send();
+      };
+    </script>
+  </body>
+</html>

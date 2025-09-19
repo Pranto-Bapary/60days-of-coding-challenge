@@ -58,7 +58,7 @@
 
 | Project                                 |  Day |                             Status                             | Live Demo                                                 |
 | --------------------------------------- | :--: | :------------------------------------------------------------: | :-------------------------------------------------------- |
-| **Responsive Landing Page**             |  ✅ 6 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-landing-page.netlify.app/) |
+| **Responsive Landing Page**             |   6 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-landing-page.netlify.app/) |
 | **Responsive Multi-Section E-Commerce** |  ✅ 7 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://leka-ecommerce.netlify.app/)       |
 | **Task Management App (LocalStorage)**  | ✅ 11 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-task-manager.netlify.app/) |
 | **Stylish To-Do App (Variant)**         |  ✅ — |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](#)                                         |

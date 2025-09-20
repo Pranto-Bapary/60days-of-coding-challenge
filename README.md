@@ -32,8 +32,11 @@
 
 ## 📊 Progress Tracker  
 
+
+## 📊 Progress Tracker  
+
 **Current Progress**  
-`████████░░░░░░░` **11/60 Days - 18% Completed** 🎉  
+`█████████░░░░░░` **13/60 Days - 22% Completed** 🎉  
 
 | Day | Topic / Task                                           | Status     |
 | --- | ------------------------------------------------------ | ---------- |
@@ -48,7 +51,8 @@
 | 9   | Arrays & Objects (map/filter/reduce/forEach/find)      | ✅ Done   |
 | 10  | DOM Manipulation (querySelector, events, classList)    | ✅ Done   |
 | 11  | Task Management App (LocalStorage + Animations)        | ✅ Done   |
-| 12  | Async JS: fetch, promises, async/await                 | ⏳ Pending |
+| 12  | Async JS: fetch, promises, async/await + GitHub Card   | ✅ Done   |
+| 13  | setTimeout + setInterval (Background Color + Clock)    | ✅ Done   |
 | ... | ...                                                    | ...        |
 | 60  | Final Review + Internship Applications                 | ⏳ Pending |
 
@@ -58,23 +62,23 @@
 
 | Project                                 |  Day |                             Status                             | Live Demo                                                 |
 | --------------------------------------- | :--: | :------------------------------------------------------------: | :-------------------------------------------------------- |
-| **Responsive Landing Page**             |   6 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-landing-page.netlify.app/) |
-| **Responsive Multi-Section E-Commerce** |  ✅ 7 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://leka-ecommerce.netlify.app/)       |
-| **Task Management App (LocalStorage)**  | ✅ 11 |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-task-manager.netlify.app/) |
-| **Stylish To-Do App (Variant)**         |  ✅ — |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](#)                                         |
-| **Weather Dashboard**                   |  ⏳ — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
-| **Movie Search App**                    |  ⏳ — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
-| **E-Commerce Cart (React)**             |  ⏳ — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
-| **Blog App**                            |  ⏳ — | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
-                                                      |
-  
+| **Responsive Landing Page**             |   6  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-landing-page.netlify.app/) |
+| **Responsive Multi-Section E-Commerce** |   7  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://leka-ecommerce.netlify.app/)       |
+| **Task Management App (LocalStorage)**  |  11  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-task-manager.netlify.app/) |
+| **Stylish To-Do App (Variant)**         |  —   |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](#)                                         |
+| **Background Color Changer**            | 13a  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-bg-changer.netlify.app/)   |
+| **Digital Clock**                       | 13b  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-digital-clock.netlify.app/) |
+| **Weather Dashboard**                   |  ⏳  | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| **Movie Search App**                    |  ⏳  | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| **E-Commerce Cart (React)**             |  ⏳  | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| **Blog App**                            |  ⏳  | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
 
 ---
 
 ## 📂 Repository Structure  
 
 ```plaintext
-60-days-of-code/
+60-days-of-coding-challenge/
 ├── Day-01/
 ├── Day-2-3/
 ├── Day-04/
@@ -85,6 +89,8 @@
 ├── Day-09/
 ├── Day-10/
 ├── Day-11/
+├── Day-12/
+├── Day-13/
 └── README.md
 ```
 

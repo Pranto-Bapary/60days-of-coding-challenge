@@ -1,4 +1,4 @@
-# 📘 Day 13 - Timers in JavaScript (setInterval, setTimeout & clearInterval)
+﻿# 📘 Day 13 - Timers in JavaScript (setInterval, setTimeout & clearInterval)
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
@@ -22,7 +22,7 @@ I built two fun projects:
 ## 🔗 Live Demos
 
 - 🎨 [Background Color Changer](https://prantos-bg-changer.netlify.app)
-- ⏰ [Digital Clock](prantos-digital-clock.netlify.app)
+- ⏰ [Digital Clock](https://prantos-digital-clock.netlify.app)
 
 ---
 

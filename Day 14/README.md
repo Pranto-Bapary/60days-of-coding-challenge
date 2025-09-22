@@ -83,10 +83,16 @@ Day-14/
 
 **Weather App Screenshot Mobile**
 
-<p align="center"> <img src="./assets/screenshots/weather-app-mobile.png" alt="Weather App Preview" style="max-width:350px; width:100%; height:auto;"> </p>
+<p align="center">
+  <img src="./assets/screenshots/weather-app-mobile.png" alt="Weather App Mobile Preview" width="250">
+</p>
 
 **Weather App Screenshot Desktop**
-<p align="center"> <img src="./assets/screenshots/weather-app-desktop.png" alt="Weather App Preview" style="max-width:500px; width:100%; height:auto;"> </p>
+
+<p align="center">
+  <img src="./assets/screenshots/weather-app-desktop.png" alt="Weather App Desktop Preview" width="500">
+</p>
+
 
 ---
 

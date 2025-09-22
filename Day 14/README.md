@@ -24,33 +24,33 @@ It comes with **LocalStorage support** to save and display recently searched cit
 
 ## 🎨 Features Implemented
 
-- ✅ **Search City/Location** → fetches live weather details instantly  
-- ✅ **Weather Details Display** → temperature, condition, icon, etc.  
-- ✅ **Recent Searches** → saves your last few searched cities in **LocalStorage**  
-- ✅ **Persistent Data** → previous searches remain even after refreshing the page  
-- ✅ **Responsive Design** → works smoothly across desktop, tablet, and mobile  
-- ✅ **Modern UI** → clean and visually appealing design  
+- ✅ **Search City/Location** → fetches live weather details instantly
+- ✅ **Weather Details Display** → temperature, condition, icon, etc.
+- ✅ **Recent Searches** → saves your last few searched cities in **LocalStorage**
+- ✅ **Persistent Data** → previous searches remain even after refreshing the page
+- ✅ **Responsive Design** → works smoothly across desktop, tablet, and mobile
+- ✅ **Modern UI** → clean and visually appealing design
 
 ---
 
 ## 📚 Topics Revised
 
-- 🔹 **Fetch API** → get weather data from OpenWeatherMap  
-- 🔹 **Async / Await** → clean async code for API calls  
-- 🔹 **LocalStorage** → save & retrieve recent searched cities  
-- 🔹 **DOM Manipulation** → dynamically render weather results  
-- 🔹 **Event Handling** → search input, button clicks  
-- 🔹 **Responsive CSS** → mobile-friendly layout  
+- 🔹 **Fetch API** → get weather data from OpenWeatherMap
+- 🔹 **Async / Await** → clean async code for API calls
+- 🔹 **LocalStorage** → save & retrieve recent searched cities
+- 🔹 **DOM Manipulation** → dynamically render weather results
+- 🔹 **Event Handling** → search input, button clicks
+- 🔹 **Responsive CSS** → mobile-friendly layout
 
 ---
 
 ## 🛠️ Practice Work
 
-- Designed a **search input & result display** for weather data.  
-- Integrated **OpenWeatherMap API** using `fetch` with **async/await**.  
-- Implemented **LocalStorage** to store and display the last few searched cities.  
-- Styled the app with **responsive CSS** for a modern look.  
-- Practiced **error handling** for invalid city names.  
+- Designed a **search input & result display** for weather data.
+- Integrated **OpenWeatherMap API** using `fetch` with **async/await**.
+- Implemented **LocalStorage** to store and display the last few searched cities.
+- Styled the app with **responsive CSS** for a modern look.
+- Practiced **error handling** for invalid city names.
 
 ---
 
@@ -83,16 +83,15 @@ Day-14/
 
 **Weather App Screenshot Mobile**
 
-<p align="center">
+<p align="left">
   <img src="./assets/screenshots/weather-app-mobile.png" alt="Weather App Mobile Preview" width="250">
 </p>
 
 **Weather App Screenshot Desktop**
 
-<p align="center">
+<p align="left">
   <img src="./assets/screenshots/weather-app-desktop.png" alt="Weather App Desktop Preview" width="500">
 </p>
-
 
 ---
 

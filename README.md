@@ -33,7 +33,7 @@
 ## 📊 Progress Tracker  
 
 **Current Progress**  
-`█████████░░░░░░` **13/60 Days - 22% Completed** 🎉  
+`██████████░░░░░` **14/60 Days - 23% Completed** 🎉  
 
 | Day | Topic / Task                                           | Status     |
 | --- | ------------------------------------------------------ | ---------- |
@@ -50,6 +50,7 @@
 | 11  | Task Management App (LocalStorage + Animations)        | ✅ Done   |
 | 12  | Async JS: fetch, promises, async/await + GitHub Card   | ✅ Done   |
 | 13  | setTimeout + setInterval (Background Color + Clock)    | ✅ Done   |
+| 14  | Weather App (LocalStorage + API Integration)           | ✅ Done   |
 | ... | ...                                                    | ...        |
 | 60  | Final Review + Internship Applications                 | ⏳ Pending |
 
@@ -64,7 +65,7 @@
 | **Task Management App (LocalStorage)**  |  11  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-task-manager.netlify.app/) |                                       |
 | **Background Color Changer**            | 13a  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-bg-changer.netlify.app/)   |
 | **Digital Clock**                       | 13b  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-digital-clock.netlify.app/) |
-| **Weather Dashboard**                   |  ⏳  | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| **Weather App (LocalStorage + API)**    |  14  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-weatherapp.netlify.app/)   |
 | **Movie Search App**                    |  ⏳  | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
 | **E-Commerce Cart (React)**             |  ⏳  | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
 | **Blog App**                            |  ⏳  | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
@@ -87,6 +88,7 @@
 ├── Day-11/
 ├── Day-12/
 ├── Day-13/
+├── Day-14/
 └── README.md
 ```
 

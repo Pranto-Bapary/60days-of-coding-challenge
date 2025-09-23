@@ -1,0 +1,111 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  padding: 20px;
+}
+
+/* Wrapper */
+.counter-wrapper {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.counter-wrapper:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
+}
+
+/* Title */
+.counter-wrapper h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+/* Counter Value */
+.counter-wrapper h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 35px;
+  color: #e0e0e0;
+}
+
+/* Buttons */
+button {
+  padding: 14px 22px;
+  margin: 8px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+  min-width: 120px;
+}
+
+/* Increment */
+.one {
+  background: linear-gradient(to right, #00b09b, #96c93d);
+}
+.one:hover {
+  background: linear-gradient(to right, #00a08b, #7bb82f);
+  box-shadow: 0 6px 15px rgba(0, 176, 155, 0.4);
+}
+
+/* Decrement */
+.two {
+  background: linear-gradient(to right, #ff512f, #dd2476);
+}
+.two:hover {
+  background: linear-gradient(to right, #e63900, #c51d65);
+  box-shadow: 0 6px 15px rgba(221, 36, 118, 0.4);
+}
+
+/* Reset */
+.three {
+  background: linear-gradient(to right, #757f9a, #d7dde8);
+  color: #1f2937;
+}
+.three:hover {
+  background: linear-gradient(to right, #636c85, #c7ced9);
+  box-shadow: 0 6px 15px rgba(117, 127, 154, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .counter-wrapper {
+    padding: 30px 20px;
+  }
+
+  .counter-wrapper h1 {
+    font-size: 1.8rem;
+  }
+
+  .counter-wrapper h3 {
+    font-size: 1.4rem;
+  }
+
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

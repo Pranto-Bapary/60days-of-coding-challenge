@@ -32,43 +32,47 @@
 
 ## 📊 Progress Tracker  
 
-**Current Progress**  
-`██████████░░░░░` **14/60 Days - 23% Completed** 🎉  
-
-| Day | Topic / Task                                           | Status     |
-| --- | ------------------------------------------------------ | ---------- |
-| 1   | HTML Basics & Semantic Tags                            | ✅ Done   |
-| 2   | Forms & Inputs                                         | ✅ Done   |
-| 3   | CSS Selectors & Box Model                              | ✅ Done   |
-| 4   | Flexbox & Grid Layouts                                 | ✅ Done   |
-| 5   | Responsive Design (Flexbox & Grid)                     | ✅ Done   |
-| 6   | Mini Landing Page                                      | ✅ Done   |
-| 7   | Review: Rebuild one page from scratch                  | ✅ Done   |
-| 8   | JavaScript Basics (variables, types, arrow functions)  | ✅ Done   |
-| 9   | Arrays & Objects (map/filter/reduce/forEach/find)      | ✅ Done   |
-| 10  | DOM Manipulation (querySelector, events, classList)    | ✅ Done   |
-| 11  | Task Management App (LocalStorage + Animations)        | ✅ Done   |
-| 12  | Async JS: fetch, promises, async/await + GitHub Card   | ✅ Done   |
-| 13  | setTimeout + setInterval (Background Color + Clock)    | ✅ Done   |
-| 14  | Weather App (LocalStorage + API Integration)           | ✅ Done   |
-| ... | ...                                                    | ...        |
-| 60  | Final Review + Internship Applications                 | ⏳ Pending |
+| Day | Topic / Task                                          | Status    |
+| --- | ----------------------------------------------------- | --------- |
+| 1   | HTML Basics & Semantic Tags                           | ✅ Done    |
+| 2   | Forms & Inputs                                        | ✅ Done    |
+| 3   | CSS Selectors & Box Model                             | ✅ Done    |
+| 4   | Flexbox & Grid Layouts                                | ✅ Done    |
+| 5   | Responsive Design (Flexbox & Grid)                    | ✅ Done    |
+| 6   | Mini Landing Page                                     | ✅ Done    |
+| 7   | Review: Rebuild one page from scratch                 | ✅ Done    |
+| 8   | JavaScript Basics (variables, types, arrow functions) | ✅ Done    |
+| 9   | Arrays & Objects (map/filter/reduce/forEach/find)     | ✅ Done    |
+| 10  | DOM Manipulation (querySelector, events, classList)   | ✅ Done    |
+| 11  | Task Management App (LocalStorage + Animations)       | ✅ Done    |
+| 12  | Async JS: fetch, promises, async/await + GitHub Card  | ✅ Done    |
+| 13  | setTimeout + setInterval (Background Color + Clock)   | ✅ Done    |
+| 14  | Weather App (LocalStorage + API Integration)          | ✅ Done    |
+| 15  | React Basics: CRA, Vite, JSX, Functional Components   | ✅ Done    |
+| 16  | React useState Hook + Counter App                     | ✅ Done    |
+| 17  | React Props + Responsive Card Components (Tailwind)   | ✅ Done    |
+| 18  | React useState Hook + Background Color Changer        | ✅ Done    |
+| ... | ...                                                   | ...       |
+| 60  | Final Review + Internship Applications                | ⏳ Pending |
 
 ---
 
 ## 🛠️ Projects Completed So Far  
 
-| Project                                 |  Day |                             Status                             | Live Demo                                                 |
-| --------------------------------------- | :--: | :------------------------------------------------------------: | :-------------------------------------------------------- |
-| **Responsive Landing Page**             |   6  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-landing-page.netlify.app/) |
-| **Responsive Multi-Section E-Commerce** |   7  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://leka-ecommerce.netlify.app/)       |
-| **Task Management App (LocalStorage)**  |  11  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-task-manager.netlify.app/) |                                       |
-| **Background Color Changer**            | 13a  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-bg-changer.netlify.app/)   |
-| **Digital Clock**                       | 13b  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-digital-clock.netlify.app/) |
-| **Weather App (LocalStorage + API)**    |  14  |  ![Done](https://img.shields.io/badge/Status-Done-brightgreen) | [🌐 Live Demo](https://prantos-weatherapp.netlify.app/)   |
-| **Movie Search App**                    |  ⏳  | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
-| **E-Commerce Cart (React)**             |  ⏳  | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
-| **Blog App**                            |  ⏳  | ![Pending](https://img.shields.io/badge/Status-Pending-yellow) | —                                                         |
+| Project                                                  |  Day  |   Status  | Live Demo                                                  |
+| -------------------------------------------------------- | :---: | :-------: | ---------------------------------------------------------- |
+| **Responsive Landing Page**                              |   6   |   ✅ Done  | [🌐 Live Demo](https://prantos-landing-page.netlify.app/)  |
+| **Responsive Multi-Section E-Commerce**                  |   7   |   ✅ Done  | [🌐 Live Demo](https://leka-ecommerce.netlify.app/)        |
+| **Task Management App (LocalStorage + Animations)**      |   11  |   ✅ Done  | [🌐 Live Demo](https://prantos-task-manager.netlify.app/)  |
+| **Background Color Changer (JS)**                        |  13a  |   ✅ Done  | [🌐 Live Demo](https://prantos-bg-changer.netlify.app/)    |
+| **Digital Clock**                                        |  13b  |   ✅ Done  | [🌐 Live Demo](https://prantos-digital-clock.netlify.app/) |
+| **Weather App (LocalStorage + API)**                     |   14  |   ✅ Done  | [🌐 Live Demo](https://prantos-weatherapp.netlify.app/)    |
+| **React Counter App (useState Hook)**                    |   16  |   ✅ Done  | [🌐 Live Demo](https://prantos-counter.netlify.app/)       |
+| **React Props Responsive Cards (Tailwind)**              |   17  |   ✅ Done  | [🌐 Live Demo](https://react-props-card.netlify.app/)      |
+| **React Background Color Changer (useState + Tailwind)** |   18  |   ✅ Done  | [🌐 Live Demo](https://my-react-bgchanger.netlify.app/)    |
+| **Movie Search App**                                     |   23  | ⏳ Pending | —                                                          |
+| **E-Commerce Cart (React)**                              | 45–49 | ⏳ Pending | —                                                          |
+| **Blog App**                                             | 40–44 | ⏳ Pending | —                                                          |
 
 ---
 
@@ -89,6 +93,10 @@
 ├── Day-12/
 ├── Day-13/
 ├── Day-14/
+├── Day-15/
+├── Day-16/
+├── Day-17/
+├── Day-18/
 └── README.md
 ```
 

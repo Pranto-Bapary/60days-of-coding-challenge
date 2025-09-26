@@ -1,4 +1,4 @@
-# 🚀 60 Days of Coding Challenge - Frontend Journey
+﻿# 🚀 60 Days of Coding Challenge - Frontend Journey
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -23,7 +23,7 @@
 - ⏳ Duration: **60 Days (2 Months)**
 - 🎯 Goal: Build confidence in frontend development & land an internship
 - 🛠️ Tech Stack:
-  - HTML5, CSS3
+  - HTML5, CSS3, TailwindCSS
   - JavaScript (ES6+, DOM, Async/Await, Fetch)
   - React.js (Hooks, Router, Context API)
   - Git & GitHub

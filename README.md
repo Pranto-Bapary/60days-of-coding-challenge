@@ -32,9 +32,12 @@
 ---
 
 ## 📊 Progress Tracker
+```
+Current Progress
+██████████████░░ 21/60 Days - 35% Completed 🎉
 
-| Day | Topic / Task                                                                | Status     |
-| --- | --------------------------------------------------------------------------- | ---------- |
+| Day | Topic / Task                                                                | Status    |
+| --- | --------------------------------------------------------------------------- | --------- |
 | 1   | HTML Basics & Semantic Tags                                                 | ✅ Done    |
 | 2   | Forms & Inputs                                                              | ✅ Done    |
 | 3   | CSS Selectors & Box Model                                                   | ✅ Done    |
@@ -54,28 +57,32 @@
 | 17  | React Props + Responsive Card Components (Tailwind)                         | ✅ Done    |
 | 18  | React useState Hook + Background Color Changer                              | ✅ Done    |
 | 19  | React Hooks (useState, useEffect, useCallback, useRef) + Password Generator | ✅ Done    |
-| ... | ...                                                                         | ...        |
+| 20  | Custom Hooks + Currency Converter App (API Integration)                     | ✅ Done    |
+| 21  | React Router v7 (Basic + Dynamic Routing, Loader)                           | ✅ Done    |
+| ... | ...                                                                         | ...       |
 | 60  | Final Review + Internship Applications                                      | ⏳ Pending |
-
+```
 ---
-
 ## 🛠️ Projects Completed So Far
 
-| Project                                                                 |  Day  |   Status   | Live Demo                                                       |
-| ----------------------------------------------------------------------- | :---: | :--------: | --------------------------------------------------------------- |
-| **Responsive Landing Page**                                             |   6   |  ✅ Done   | [🌐 Live Demo](https://prantos-landing-page.netlify.app/)       |
-| **Responsive Multi-Section E-Commerce**                                 |   7   |  ✅ Done   | [🌐 Live Demo](https://leka-ecommerce.netlify.app/)             |
-| **Task Management App (LocalStorage + Animations)**                     |  11   |  ✅ Done   | [🌐 Live Demo](https://prantos-task-manager.netlify.app/)       |
-| **Background Color Changer (JS)**                                       |  13a  |  ✅ Done   | [🌐 Live Demo](https://prantos-bg-changer.netlify.app/)         |
-| **Digital Clock**                                                       |  13b  |  ✅ Done   | [🌐 Live Demo](https://prantos-digital-clock.netlify.app/)      |
-| **Weather App (LocalStorage + API)**                                    |  14   |  ✅ Done   | [🌐 Live Demo](https://prantos-weatherapp.netlify.app/)         |
-| **React Counter App (useState Hook)**                                   |  16   |  ✅ Done   | [🌐 Live Demo](https://prantos-counter.netlify.app/)            |
-| **React Props Responsive Cards (Tailwind)**                             |  17   |  ✅ Done   | [🌐 Live Demo](https://react-props-card.netlify.app/)           |
-| **React Background Color Changer (useState + Tailwind)**                |  18   |  ✅ Done   | [🌐 Live Demo](https://my-react-bgchanger.netlify.app/)         |
-| **React Password Generator (useState, useEffect, useCallback, useRef)** |  19   |  ✅ Done   | [🌐 Live Demo](https://prantos-password-generator.netlify.app/) |
-| **Movie Search App**                                                    |  23   | ⏳ Pending | —                                                               |
+| Project                                                                 |  Day  |   Status  | Live Demo                                                       |
+| ----------------------------------------------------------------------- | :---: | :-------: | --------------------------------------------------------------- |
+| **Responsive Landing Page**                                             |   6   |   ✅ Done  | [🌐 Live Demo](https://prantos-landing-page.netlify.app/)       |
+| **Responsive Multi-Section E-Commerce**                                 |   7   |   ✅ Done  | [🌐 Live Demo](https://leka-ecommerce.netlify.app/)             |
+| **Task Management App (LocalStorage + Animations)**                     |   11  |   ✅ Done  | [🌐 Live Demo](https://prantos-task-manager.netlify.app/)       |
+| **Background Color Changer (JS)**                                       |  13a  |   ✅ Done  | [🌐 Live Demo](https://prantos-bg-changer.netlify.app/)         |
+| **Digital Clock**                                                       |  13b  |   ✅ Done  | [🌐 Live Demo](https://prantos-digital-clock.netlify.app/)      |
+| **Weather App (LocalStorage + API)**                                    |   14  |   ✅ Done  | [🌐 Live Demo](https://prantos-weatherapp.netlify.app/)         |
+| **React Counter App (useState Hook)**                                   |   16  |   ✅ Done  | [🌐 Live Demo](https://prantos-counter.netlify.app/)            |
+| **React Props Responsive Cards (Tailwind)**                             |   17  |   ✅ Done  | [🌐 Live Demo](https://react-props-card.netlify.app/)           |
+| **React Background Color Changer (useState + Tailwind)**                |   18  |   ✅ Done  | [🌐 Live Demo](https://my-react-bgchanger.netlify.app/)         |
+| **React Password Generator (useState, useEffect, useCallback, useRef)** |   19  |   ✅ Done  | [🌐 Live Demo](https://prantos-password-generator.netlify.app/) |
+| **React Currency Converter (Custom Hook + API)**                        |   20  |   ✅ Done  | [🌐 Live Demo](https://prantos-currency-converter.netlify.app/) |
+| **React Router Practice (v7, Routing + Loader)**                        |   21  |   ✅ Done  | [🌐 Live Demo](https://practice-router.netlify.app/)            |
+| **Movie Search App**                                                    |   23  | ⏳ Pending | —                                                               |
 | **E-Commerce Cart (React)**                                             | 45–49 | ⏳ Pending | —                                                               |
 | **Blog App**                                                            | 40–44 | ⏳ Pending | —                                                               |
+                                                 |
 
 ---
 

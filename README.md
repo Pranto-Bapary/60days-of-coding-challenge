@@ -78,7 +78,7 @@ Current Progress
 | **React Background Color Changer (useState + Tailwind)**                |   18  |   ✅ Done  | [🌐 Live Demo](https://my-react-bgchanger.netlify.app/)         |
 | **React Password Generator (useState, useEffect, useCallback, useRef)** |   19  |   ✅ Done  | [🌐 Live Demo](https://prantos-password-generator.netlify.app/) |
 | **React Currency Converter (Custom Hook + API)**                        |   20  |   ✅ Done  | [🌐 Live Demo](https://prantos-currency-converter.netlify.app/) |
-| **React Router Practice (v7, Routing + Loader)**                        |   21  |   ✅ Done  | [🌐 Live Demo](https://practice-router.netlify.app/)            |
+| **React Router Practice (v7, Routing + Loader)**                        |   21  |   ✅ Done  | [🌐 Live Demo](https://react-router-v7-practice.netlify.app/)            |
 | **Movie Search App**                                                    |   23  | ⏳ Pending | —                                                               |
 | **E-Commerce Cart (React)**                                             | 45–49 | ⏳ Pending | —                                                               |
 | **Blog App**                                                            | 40–44 | ⏳ Pending | —                                                               |

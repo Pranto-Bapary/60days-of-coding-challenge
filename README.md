@@ -59,7 +59,7 @@ Current Progress
 | 19  | React Hooks (useState, useEffect, useCallback, useRef) + Password Generator | ✅ Done    |
 | 20  | Custom Hooks + Currency Converter App (API Integration)                     | ✅ Done    |
 | 21  | React Router v7 (Basic + Dynamic Routing, Loader)                           | ✅ Done    |
-| ... | ...                                                                         | ...       |
+| ... | ....                                                                        |.....       |
 | 60  | Final Review + Internship Applications                                      | ⏳ Pending |
 ```
 ---
@@ -108,6 +108,8 @@ Current Progress
 ├── Day-17/
 ├── Day-18/
 ├── Day-19/
+├── Day-20/
+├── Day-21/
 └── README.md
 ```
 

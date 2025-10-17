@@ -23,38 +23,38 @@ As a hands-on project I built a small 4-page app with a fixed Navbar & Footer; p
 
 ## 🎨 Features Implemented
 
-- ✅ Static & Dynamic routing with **React Router v7**  
-- ✅ Navigation via `<Link />` and `<NavLink />` — active links styled with the `className` function (so the active item gets the orange color)  
-- ✅ Nested routes & layout composition using `<Outlet />` for shared Navbar/Footer  
-- ✅ Route **loader** functions to fetch data *before* a route renders and `useLoaderData()` to access that data in the component  
-- ✅ Programmatic navigation with `useNavigate()` (for redirects, buttons, etc.)  
-- ✅ Custom **404 Error Page** (using route `errorElement` / Error Boundary) with a button to go back home  
-- ✅ Fetched GitHub profile (avatar + name) using a loader attached to a route  
-- ✅ Styled and made responsive using **Tailwind CSS**  
+- ✅ Static & Dynamic routing with **React Router v7**
+- ✅ Navigation via `<Link />` and `<NavLink />` — active links styled with the `className` function (so the active item gets the orange color)
+- ✅ Nested routes & layout composition using `<Outlet />` for shared Navbar/Footer
+- ✅ Route **loader** functions to fetch data _before_ a route renders and `useLoaderData()` to access that data in the component
+- ✅ Programmatic navigation with `useNavigate()` (for redirects, buttons, etc.)
+- ✅ Custom **404 Error Page** (using route `errorElement` / Error Boundary) with a button to go back home
+- ✅ Fetched GitHub profile (avatar + name) using a loader attached to a route
+- ✅ Styled and made responsive using **Tailwind CSS**
 - ✅ Deployed on **Netlify**
 
 ---
 
 ## 📚 Topics Revised
 
-- 🔹 **Routing basics** — why client routing is used in SPAs  
-- 🔹 **Static vs Dynamic routes** — `path="/about"` vs `path="/user/:id"`  
-- 🔹 **NavLink** — use the `className` callback (receives `{ isActive, isPending }`) to apply active styles  
-- 🔹 **Outlet** — used in layout routes to render child routes without reloading the page  
-- 🔹 **Loader pattern** — attach `loader` functions to routes and read data with `useLoaderData()` in components (avoids janky loading states)  
-- 🔹 **useNavigate** — programmatic navigation (e.g. redirect after an action) — must be used inside a Router context  
+- 🔹 **Routing basics** — why client routing is used in SPAs
+- 🔹 **Static vs Dynamic routes** — `path="/about"` vs `path="/user/:id"`
+- 🔹 **NavLink** — use the `className` callback (receives `{ isActive, isPending }`) to apply active styles
+- 🔹 **Outlet** — used in layout routes to render child routes without reloading the page
+- 🔹 **Loader pattern** — attach `loader` functions to routes and read data with `useLoaderData()` in components (avoids janky loading states)
+- 🔹 **useNavigate** — programmatic navigation (e.g. redirect after an action) — must be used inside a Router context
 - 🔹 **Tailwind CSS** — responsive layout & utilities for navbar/footer styling
 
 ---
 
 ## 🛠️ Practice Work
 
-- Set up a Vite + React app and added React Router v7  
-- Built a **Layout** component with **Navbar** and **Footer**; used `<Outlet />` to render pages  
-- Implemented pages: **Home**, **About**, **Contact**, **Github**  
-- Used **NavLink** `className` function to style the active link (orange)  
-- Created a route `loader` to fetch GitHub profile data (avatar, name) and used `useLoaderData()` in the component to consume it  
-- Implemented a **404** route (errorElement) that displays a friendly message and a button using `useNavigate()` to go home  
+- Set up a Vite + React app and added React Router v7
+- Built a **Layout** component with **Navbar** and **Footer**; used `<Outlet />` to render pages
+- Implemented pages: **Home**, **About**, **Contact**, **Github**
+- Used **NavLink** `className` function to style the active link (orange)
+- Created a route `loader` to fetch GitHub profile data (avatar, name) and used `useLoaderData()` in the component to consume it
+- Implemented a **404** route (errorElement) that displays a friendly message and a button using `useNavigate()` to go home
 - Styled everything using **Tailwind CSS** and deployed to Netlify
 
 ---
@@ -80,6 +80,7 @@ Day-22/
     ├── package.json
     └── README.md
 ```
+
 ---
 
 ## 🚀 Output Highlights
@@ -99,8 +100,9 @@ Day-22/
 ## 🎥 Preview
 
 **Desktop Preview**
+
 <p align="left"> 
-<img src="/react-router-project/public/desktop.png" alt="React Router Desktop Preview" width="700"> 
-</p> 
+<img src="./react-router-project/public/screenshots/desktop.png" alt="React Router Desktop Preview" width="700"> 
+</p>
 
 ---

@@ -100,7 +100,7 @@ Day-22/
 
 **Desktop Preview**
 <p align="left"> 
-<img src="./public/desktop.png" alt="React Router Desktop Preview" width="700"> 
+<img src="/react-router-project/public/desktop.png" alt="React Router Desktop Preview" width="700"> 
 </p> 
 
 ---

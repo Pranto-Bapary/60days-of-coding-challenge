@@ -34,55 +34,58 @@
 ## 📊 Progress Tracker
 ```
 Current Progress
-█████████████████░ 27/60 Days - 45% Completed 🎉
+████████████████████░░░░░░ 24/60 Days - 40% Completed 🎉
 
-| Day | Topic / Task                                                                | Status    |
-| --- | --------------------------------------------------------------------------- | --------- |
-| 1   | HTML Basics & Semantic Tags                                                 | ✅ Done    |
-| 2   | Forms & Inputs                                                              | ✅ Done    |
-| 3   | CSS Selectors & Box Model                                                   | ✅ Done    |
-| 4   | Flexbox & Grid Layouts                                                      | ✅ Done    |
-| 5   | Responsive Design (Flexbox & Grid)                                          | ✅ Done    |
-| 6   | Mini Landing Page                                                           | ✅ Done    |
-| 7   | Review: Rebuild one page from scratch                                       | ✅ Done    |
-| 8   | JavaScript Basics (variables, types, arrow functions)                       | ✅ Done    |
-| 9   | Arrays & Objects (map/filter/reduce/forEach/find)                           | ✅ Done    |
-| 10  | DOM Manipulation (querySelector, events, classList)                         | ✅ Done    |
-| 11  | Task Management App (LocalStorage + Animations)                             | ✅ Done    |
-| 12  | Async JS: fetch, promises, async/await + GitHub Card                        | ✅ Done    |
-| 13  | setTimeout + setInterval (Background Color + Clock)                         | ✅ Done    |
-| 14  | Weather App (LocalStorage + API Integration)                                | ✅ Done    |
-| 15  | React Basics: CRA, Vite, JSX, Functional Components                         | ✅ Done    |
-| 16  | React useState Hook + Counter App                                           | ✅ Done    |
-| 17  | React Props + Responsive Card Components (Tailwind)                         | ✅ Done    |
-| 18  | React useState Hook + Background Color Changer                              | ✅ Done    |
-| 19  | React Hooks (useState, useEffect, useCallback, useRef) + Password Generator | ✅ Done    |
-| 20  | Custom Hooks + Currency Converter App (API Integration)                     | ✅ Done    |
-| 21  | React Router v7 (Basic + Dynamic Routing, Loader)                           | ✅ Done    |
-| ... | ....                                                                        |.....       |
-| 60  | Final Review + Internship Applications                                      | ⏳ Pending |
+
+| Day | Topic / Task                                                                 | Status |
+| --- | ---------------------------------------------------------------------------- | ------ |
+| 1   | HTML Basics & Semantic Tags                                                   | ✅ Done |
+| 2   | Forms & Inputs                                                                | ✅ Done |
+| 3   | CSS Selectors & Box Model                                                     | ✅ Done |
+| 4   | Flexbox & Grid Layouts                                                        | ✅ Done |
+| 5   | Responsive Design (Flexbox & Grid)                                            | ✅ Done |
+| 6   | Mini Landing Page                                                             | ✅ Done |
+| 7   | Review: Rebuild one page from scratch                                         | ✅ Done |
+| 8   | JavaScript Basics (variables, types, arrow functions)                         | ✅ Done |
+| 9   | Arrays & Objects (map/filter/reduce/forEach/find)                             | ✅ Done |
+| 10  | DOM Manipulation (querySelector, events, classList)                           | ✅ Done |
+| 11  | Task Management App (LocalStorage + Animations)                               | ✅ Done |
+| 12  | Async JS: fetch, promises, async/await + GitHub Card                          | ✅ Done |
+| 13  | setTimeout + setInterval (Background Color + Clock)                           | ✅ Done |
+| 14  | Weather App (LocalStorage + API Integration)                                  | ✅ Done |
+| 15  | React Basics: CRA, Vite, JSX, Functional Components                           | ✅ Done |
+| 16  | React useState Hook + Counter App                                             | ✅ Done |
+| 17  | React Props + Responsive Card Components (Tailwind)                           | ✅ Done |
+| 18  | React useState Hook + Background Color Changer                                | ✅ Done |
+| 19  | React Hooks (useState, useEffect, useCallback, useRef) + Password Generator   | ✅ Done |
+| 20  | Custom Hooks + Currency Converter App (API Integration)                       | ✅ Done |
+| 21  | React Router v7 (Basic + Dynamic Routing)                                     | ✅ Done |
+| 22  | React Router v7 (Loader, Outlet, NavLink, 404 Page)                           | ✅ Done |
+| 23  | React Context API (Login & Profile State)                                     | ✅ Done |
+| 24  | React Context API (Theme Switcher – Light/Dark Mode)                          | ✅ Done |
+| ... | ...                                                                          | ...    |
+| 60  | Final Review + Internship Applications                                        | ⏳ Pending |
+
 ```
 ---
 ## 🛠️ Projects Completed So Far
 
-| Project                                                                 |  Day  |   Status  | Live Demo                                                       |
-| ----------------------------------------------------------------------- | :---: | :-------: | --------------------------------------------------------------- |
-| **Responsive Landing Page**                                             |   6   |   ✅ Done  | [🌐 Live Demo](https://prantos-landing-page.netlify.app/)       |
-| **Responsive Multi-Section E-Commerce**                                 |   7   |   ✅ Done  | [🌐 Live Demo](https://leka-ecommerce.netlify.app/)             |
-| **Task Management App (LocalStorage + Animations)**                     |   11  |   ✅ Done  | [🌐 Live Demo](https://prantos-task-manager.netlify.app/)       |
-| **Background Color Changer (JS)**                                       |  13a  |   ✅ Done  | [🌐 Live Demo](https://prantos-bg-changer.netlify.app/)         |
-| **Digital Clock**                                                       |  13b  |   ✅ Done  | [🌐 Live Demo](https://prantos-digital-clock.netlify.app/)      |
-| **Weather App (LocalStorage + API)**                                    |   14  |   ✅ Done  | [🌐 Live Demo](https://prantos-weatherapp.netlify.app/)         |
-| **React Counter App (useState Hook)**                                   |   16  |   ✅ Done  | [🌐 Live Demo](https://prantos-counter.netlify.app/)            |
-| **React Props Responsive Cards (Tailwind)**                             |   17  |   ✅ Done  | [🌐 Live Demo](https://react-props-card.netlify.app/)           |
-| **React Background Color Changer (useState + Tailwind)**                |   18  |   ✅ Done  | [🌐 Live Demo](https://my-react-bgchanger.netlify.app/)         |
-| **React Password Generator (useState, useEffect, useCallback, useRef)** |   19  |   ✅ Done  | [🌐 Live Demo](https://prantos-password-generator.netlify.app/) |
-| **React Currency Converter (Custom Hook + API)**                        |   20  |   ✅ Done  | [🌐 Live Demo](https://prantos-currency-converter.netlify.app/) |
-| **React Router Practice (v7, Routing + Loader)**                        |   21  |   ✅ Done  | [🌐 Live Demo](https://react-router-v7-practice.netlify.app/)            |
-| **Movie Search App**                                                    |   23  | ⏳ Pending | —                                                               |
-| **E-Commerce Cart (React)**                                             | 45–49 | ⏳ Pending | —                                                               |
-| **Blog App**                                                            | 40–44 | ⏳ Pending | —                                                               |
-                                                 |
+| Project                                                                 | Day | Status | Live Demo |
+| ----------------------------------------------------------------------- | :-: | :----: | --------- |
+| **Responsive Landing Page**                                             | 6   | ✅ Done | [🌐 Live](https://prantos-landing-page.netlify.app/) |
+| **Responsive Multi-Section E-Commerce**                                 | 7   | ✅ Done | [🌐 Live](https://leka-ecommerce.netlify.app/) |
+| **Task Management App (LocalStorage + Animations)**                     | 11  | ✅ Done | [🌐 Live](https://prantos-task-manager.netlify.app/) |
+| **Background Color Changer (JS)**                                       | 13  | ✅ Done | [🌐 Live](https://prantos-bg-changer.netlify.app/) |
+| **Digital Clock**                                                       | 13  | ✅ Done | [🌐 Live](https://prantos-digital-clock.netlify.app/) |
+| **Weather App (LocalStorage + API)**                                    | 14  | ✅ Done | [🌐 Live](https://prantos-weatherapp.netlify.app/) |
+| **React Counter App**                                                   | 16  | ✅ Done | [🌐 Live](https://prantos-counter.netlify.app/) |
+| **React Props Card UI (Tailwind)**                                      | 17  | ✅ Done | [🌐 Live](https://react-props-card.netlify.app/) |
+| **React Background Color Changer**                                      | 18  | ✅ Done | [🌐 Live](https://my-react-bgchanger.netlify.app/) |
+| **React Password Generator**                                            | 19  | ✅ Done | [🌐 Live](https://prantos-password-generator.netlify.app/) |
+| **Currency Converter (Custom Hook)**                                    | 20  | ✅ Done | [🌐 Live](https://prantos-currency-converter.netlify.app/) |
+| **React Router v7 Practice App**                                        | 21–22 | ✅ Done | [🌐 Live](https://react-router-v7-practice.netlify.app/) |
+| **Context API – Login & Profile**                                       | 23  | ✅ Done | — |
+| **Context API – Theme Switcher**                                        | 24  | ✅ Done | — |
 
 ---
 
@@ -110,6 +113,9 @@ Current Progress
 ├── Day-19/
 ├── Day-20/
 ├── Day-21/
+├── Day-22/
+├── Day-23/
+├── Day-24/
 └── README.md
 ```
 

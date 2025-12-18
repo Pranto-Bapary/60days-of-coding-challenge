@@ -11,19 +11,19 @@
 
 <p align="center">
 Welcome to <b>Day 24</b> of my <b>60 Days of Coding Challenge</b> 🚀  
-Today, I deepened my understanding of the <b>React Context API</b> by building a <b>Theme Toggle Switch</b> (Light / Dark mode).  
-This practice helped me clearly understand how global UI state can be managed and updated across an entire application using Context.
+Today, I strengthened my understanding of the <b>React Context API</b> by building a <b>Theme Toggle Switch</b> (Light / Dark mode).  
+This practice helped me understand how global UI state can be managed and updated across an entire application using Context.
 </p>
 
 ---
 
 ## 🎯 What I Learned
 
-- How to manage **global UI state** using Context API
-- How to toggle state globally (light ↔ dark)
-- How to consume and update context from multiple components
-- How Context API simplifies cross-app UI behavior
-- How theme state affects multiple components instantly
+- Managing **global UI state** using Context API
+- Toggling theme globally (light ↔ dark)
+- Consuming and updating context from multiple components
+- Applying conditional UI styles based on context state
+- Understanding real-world use cases of Context API
 
 ---
 
@@ -33,7 +33,7 @@ This practice helped me clearly understand how global UI state can be managed an
 - ✅ `createContext()`
 - ✅ Context Provider pattern
 - ✅ `useContext()` hook
-- ✅ Conditional styling based on theme
+- ✅ Conditional styling
 - ✅ Clean and scalable state structure
 
 ---
@@ -42,38 +42,41 @@ This practice helped me clearly understand how global UI state can be managed an
 
 - Created a global **Theme Context**
 - Implemented **Light / Dark mode toggle**
-- Shared theme state across components using Context
+- Shared theme state across the entire app
 - Updated UI styles dynamically based on active theme
 - Focused on logic clarity rather than visual complexity
-
----
-
-## 🧠 Key Takeaways
-
-- Theme switching is a **perfect real-world use case** for Context API
-- Context makes global UI behavior simple and predictable
-- Improves code readability and maintainability
-- Avoids passing theme props through multiple components
 
 ---
 
 ## 📸 Screenshots
 
 ### 🌞 Light Mode
-```html
-<img src="./theme-toggle-switch/public/screenshots/mobile_light.png" alt="Light Mode Preview" width="700" />
-```
+
+<img src="./theme-toggle-switch/public/screenshots/mobile_light.png" alt="Light Mode Preview" width="400" />
 
 ### 🌙 Dark Mode
-``` html
-<img src="./theme-toggle-switch/public/screenshots/mobile_dark.png" alt="Dark Mode Preview" width="700" />
-```
+
+<img src="./theme-toggle-switch/public/screenshots/mobile_dark.png" alt="Dark Mode Preview" width="400" />
+
 ---
+
+## 🧠 Key Takeaways
+
+- Theme switching is a **perfect real-world use case** for Context API
+- Context simplifies global UI state handling
+- Improves readability and maintainability
+- Eliminates unnecessary prop drilling
+
+---
+
 ## 🔜 What’s Next
 
-- Day 25 - Make a Todo App using Context API
+- **Day 25** – Build a Todo App using Context API
+- Persist theme using `localStorage`
+- Context API with `useReducer`
 
 ---
 
 ### ✅ Day 24 Completed  
 **Understanding Context API through real-world UI patterns**
+---

@@ -16,6 +16,12 @@ Today, I built a fully functional <b>Todo App</b> using <b>React Context API</b>
 
 ---
 
+## 🌐 Live Demo
+
+👉 **Live App:** https://react-context-todoapp.netlify.app/
+
+---
+
 ## 🎯 What I Learned
 
 - Managing global todo state using Context API

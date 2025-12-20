@@ -34,7 +34,7 @@
 ## 📊 Progress Tracker
 ```
 Current Progress
-████████████████████░░░░░░ 24/60 Days - 40% Completed 🎉
+█████████████████████░░░░░ 25/60 Days - 42% Completed 🎉
 
 
 | Day | Topic / Task                                                                 | Status |
@@ -63,6 +63,7 @@ Current Progress
 | 22  | React Router v7 (Loader, Outlet, NavLink, 404 Page)                           | ✅ Done |
 | 23  | React Context API (Login & Profile State)                                     | ✅ Done |
 | 24  | React Context API (Theme Switcher – Light/Dark Mode)                          | ✅ Done |
+| 25  | React Context API (Todo App + LocalStorage)                                   | ✅ Done |
 | ... | ...                                                                          | ...    |
 | 60  | Final Review + Internship Applications                                        | ⏳ Pending |
 
@@ -86,6 +87,8 @@ Current Progress
 | **React Router v7 Practice App**                                        | 21–22 | ✅ Done | [🌐 Live](https://react-router-v7-practice.netlify.app/) |
 | **Context API – Login & Profile**                                       | 23  | ✅ Done | — |
 | **Context API – Theme Switcher**                                        | 24  | ✅ Done | — |
+| **Context API – Todo App (LocalStorage)**                               | 25     | ✅ Done | [🌐 Live](https://react-context-todoapp.netlify.app/) |
+
 
 ---
 
@@ -116,6 +119,7 @@ Current Progress
 ├── Day-22/
 ├── Day-23/
 ├── Day-24/
+├── Day-25/
 └── README.md
 ```
 

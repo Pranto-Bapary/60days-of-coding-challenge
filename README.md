@@ -34,7 +34,7 @@
 ## 📊 Progress Tracker
 ```
 Current Progress
-█████████████████████░░░░░ 25/60 Days - 42% Completed 🎉
+██████████████████████████░░ 30/60 Days - 50% Completed 🎉
 
 
 | Day | Topic / Task                                                                 | Status |
@@ -64,6 +64,11 @@ Current Progress
 | 23  | React Context API (Login & Profile State)                                     | ✅ Done |
 | 24  | React Context API (Theme Switcher – Light/Dark Mode)                          | ✅ Done |
 | 25  | React Context API (Todo App + LocalStorage)                                   | ✅ Done |
+| 26  | React + Tailwind CSS (Landing Page Planning & Layout)                         | ✅ Done |
+| 27  | HooBank Landing Page – Section Design & Gradients                             | ✅ Done |
+| 28  | HooBank Landing Page – Responsive Layout & Hover Effects                      | ✅ Done |
+| 29  | HooBank Landing Page – UI Polish & Animations                                 | ✅ Done |
+| 30  | HooBank Landing Page – Final Review & Optimization                            | ✅ Done |
 | ... | ...                                                                          | ...    |
 | 60  | Final Review + Internship Applications                                        | ⏳ Pending |
 
@@ -88,6 +93,8 @@ Current Progress
 | **Context API – Login & Profile**                                       | 23  | ✅ Done | — |
 | **Context API – Theme Switcher**                                        | 24  | ✅ Done | — |
 | **Context API – Todo App (LocalStorage)**                               | 25     | ✅ Done | [🌐 Live](https://react-context-todoapp.netlify.app/) |
+| **HooBank – Modern Bank Landing Page (React + Tailwind CSS)** | 26–30 | ✅ Done | [🌐 Live](https://hoobank-landing-page.netlify.app/) |
+
 
 
 ---
@@ -119,7 +126,11 @@ Current Progress
 ├── Day-22/
 ├── Day-23/
 ├── Day-24/
-├── Day-25/
+├── Day-26/
+├── Day-27/
+├── Day-28/
+├── Day-29/
+├── Day-30/
 └── README.md
 ```
 

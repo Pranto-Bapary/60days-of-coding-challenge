@@ -18,13 +18,11 @@ This project helped me focus on UI/UX, component structure, responsiveness, and 
 
 ## 🌐 Live Demo
 
-<p align="center">
+<p align="left">
   <a href="https://hookbank-landing-page.netlify.app/" target="_blank">
     <img src="https://img.shields.io/badge/Live%20Demo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
   </a>
 </p>
-
-👉 **Direct Link:** https://hookbank-landing-page.netlify.app/
 
 ---
 

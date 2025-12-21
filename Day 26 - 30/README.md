@@ -71,7 +71,7 @@ This project helped me focus on UI/UX, component structure, responsiveness, and 
 ## 📸 Screenshots
 
 ### 🖥️ Desktop View
-<img src="./hoobank/public/screenshots/desktop.png" alt="HooBank Desktop Preview" width="700" />
+<img src="./HooBank/public/screenshots/desktop.png" alt="HooBank Desktop Preview" width="700" />
 
 
 ---
